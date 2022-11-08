@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@200;300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #f6f6f6;
+}
+
+body {
+  background-color: #000000;
+  background-image: url(../assets/img/skyline.png);
+  background-position: left;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/*Estilos generales de los botones*/
+.boton {
+  border: 1px solid #08fdd8;
+  padding: 1rem 1.5rem;
+  background-color: transparent;
+  color: #08fdd8;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.boton a {
+  text-decoration: none;
+  color: #08fdd8;
+}
+
+.boton:hover {
+  background-color: #08fdd8;
+  transition: 1s;
+  color: #222020;
+}
+
+.boton:hover a {
+  color: #222020;
+  font-weight: bold;
+}
+
+/*Fin de estilos generales de los botones*/
+/*Estilos del header*/
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header .container-header {
+  width: 100%;
+  max-width: 1200px;
+}
+.header .container-header .logoNavBar {
+  width: 10%;
+  padding-top: 0.5rem;
+}
+.header .container-header .navbar-collapse {
+  flex-grow: 0 !important;
+  /*ordena hacia el costado el navbar*/
+}
+.header .container-header .navbar-collapse .navbar-nav li a {
+  color: #f6f6f6;
+  font-family: "Poppins", sans-serif;
+}
+.header .container-header .navbar-collapse .active,
+.header .container-header .navbar-collapse .navbar-nav li a:hover {
+  text-decoration: line-through !important;
+  color: #08fdd8 !important;
+}
+
+/*Fin del header*/
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+main .section {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+main .section .container-bienvenida {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .section .container-bienvenida div {
+  display: flex;
+  justify-content: center;
+}
+main .section .container-bienvenida h1 {
+  display: flex;
+  justify-content: center;
+}
+main .section .container-bienvenida h1 #logo-bienvenida {
+  width: 8rem;
+}
+main .section .container-bienvenida h1 span {
+  font-size: 10rem;
+  font-weight: bold;
+}
+main .section .container-bienvenida h2 {
+  font-size: 3rem;
+}
+
+/*css del footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+.footer .redes {
+  display: flex;
+  justify-content: center;
+}
+.footer .copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+}
+
+.footer i:hover {
+  transform: scale(1.2);
+  color: #08fdd8;
+}
+
+/*Clase para las imagenes de redes sociales*/
+.fa-linkedin,
+.fa-github,
+.fa-instagram {
+  padding: 10px;
+  font-size: 2.2em;
+  color: #08fdd8;
+}
+
+/*Fin de footer*/
+
+/*# sourceMappingURL=style.css.map */
