@@ -1,0 +1,118 @@
+@import 'listas';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: nth($colores, 3);
+
+}
+
+.body-index{
+    background-color: nth($colores, 1);
+    background-image: url(../assets/img/skyline.png);
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.body-paginas{
+    background-color: nth($colores, 1);
+}
+
+
+.active {
+    text-decoration: line-through !important;
+    color: nth($colores, 2) !important;
+  }
+
+ 
+
+  main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+    .section{
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3rem;
+    }
+
+    /*Estilos generales de los botones*/
+
+.boton {
+    border: 1px solid #08fdd8;
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    color: #08fdd8;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+
+    &:hover{
+        background-color: #08fdd8;
+        color: #222020;
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: #08fdd8;
+
+        
+  }
+}
+  /*Fin de estilos generales de los botones*/
+
+  /*css del footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+
+    .redes {
+        display: flex;
+        justify-content: center;
+      }
+      
+    
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+  }
+  }
+
+  .footer i:hover {
+    transform: scale(1.2);
+    color: #08fdd8;
+  }
+  
+
+/*Clase para las imagenes de redes sociales*/
+.fa-linkedin,
+.fa-github,
+.fa-instagram {
+  padding: 10px;
+  font-size: 2.2em;
+  color: #08fdd8;
+}
+
+/*Fin de footer*/

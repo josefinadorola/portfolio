@@ -1,0 +1,33 @@
+/*Estilos del header*/
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+   .container-header {
+    width: 100%;
+    max-width: 1200px;
+
+    .logoNavBar {
+      width: 10%;
+      padding-top: 0.5rem;
+    }
+
+    .navbar-collapse {
+      flex-grow: 0 !important;
+      /*ordena hacia el costado el navbar*/
+
+      .navbar-nav li a {
+        color: #f6f6f6;
+
+        &:hover {
+          text-decoration: line-through !important;
+          color: #08fdd8 !important;
+        }
+      }
+    }
+  }
+}
+
+/*Fin del header*/
