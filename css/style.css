@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@200;300;400;600&display=swap"); /*Estilos del header*/
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*Estilos del header*/
 .header {
   width: 100%;
   display: flex;
@@ -25,6 +27,114 @@
 }
 
 /*Fin del header*/
+/*css del footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  /*Clase para las imagenes de redes sociales*/
+}
+.footer:hover {
+  transform: scale(1.2);
+  color: #08fdd8;
+}
+.footer .redes {
+  display: flex;
+  justify-content: center;
+}
+.footer .copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+}
+.footer .fa-linkedin,
+.footer .fa-github,
+.footer .fa-instagram {
+  padding: 10px;
+  font-size: 2.2em;
+  color: #08fdd8;
+}
+
+.footer-paginas {
+  position: relative;
+}
+
+/*Fin de footer*/
+/*CSS formulario y pÃ¡gina contacto*/
+.formulario {
+  width: 75%;
+  margin: 0 auto;
+}
+
+form {
+  padding: 50px;
+  border: 1px solid #08fdd8;
+  background-color: transparent;
+  text-align: left;
+}
+form label {
+  display: block;
+  text-align: left;
+  font-size: 1em;
+}
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  color: #8a8787;
+}
+form .boton {
+  margin: 20px 0;
+  background-color: #08fdd8;
+  color: #000000;
+}
+form .boton:hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  padding: 3px 10px;
+  resize: none;
+  display: block;
+  color: #8a8787;
+}
+
+/*Fin CSS formulario*/
+/*Estilos generales de los botones*/
+.boton {
+  border: 1px solid #08fdd8;
+  padding: 1rem 1.5rem;
+  background-color: transparent;
+  color: #08fdd8;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+}
+.boton:hover {
+  background-color: #08fdd8;
+  color: #000000;
+}
+.boton a {
+  text-decoration: none;
+  color: #08fdd8;
+}
+
+/*Fin de estilos generales de los botones*/
 * {
   padding: 0;
   margin: 0;
@@ -46,6 +156,10 @@
   background-color: #000000;
 }
 
+a {
+  text-decoration: none;
+}
+
 .active {
   text-decoration: line-through !important;
   color: #08fdd8 !important;
@@ -57,8 +171,7 @@ main {
   justify-content: center;
   padding: 2rem;
 }
-
-.section {
+main .section {
   width: 100%;
   max-width: 1200px;
   display: flex;
@@ -67,64 +180,27 @@ main {
   padding: 3rem;
 }
 
-/*Estilos generales de los botones*/
-.boton {
-  border: 1px solid #08fdd8;
-  padding: 1rem 1.5rem;
-  background-color: transparent;
-  color: #08fdd8;
-  text-decoration: none;
-  font-size: 17px;
-  letter-spacing: 4px;
+/*Estilos generales de las pÃ¡ginas*/
+.titulos-paginas {
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 3rem 1rem 0;
   text-align: center;
-  cursor: pointer;
-  transition: 1s;
 }
-.boton:hover {
-  background-color: #08fdd8;
-  color: #222020;
+.titulos-paginas .h2-secciones {
+  font-size: 2.5em;
+  font-weight: bold;
 }
-.boton a {
-  text-decoration: none;
-  color: #08fdd8;
-}
-
-/*Fin de estilos generales de los botones*/
-/*css del footer*/
-.footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  padding: 20px;
-}
-.footer .redes {
-  display: flex;
-  justify-content: center;
-}
-.footer .copyright {
-  display: flex;
-  justify-content: center;
-  font-size: 0.8em;
+.titulos-paginas .titulo-borde {
+  background: none repeat scroll 0 0 #08fdd8;
+  height: 0.2rem;
+  width: 7rem;
+  margin-bottom: 3rem;
+  display: block;
+  margin: auto;
+  padding: 0;
 }
 
-.footer i:hover {
-  transform: scale(1.2);
-  color: #08fdd8;
-}
-
-/*Clase para las imagenes de redes sociales*/
-.fa-linkedin,
-.fa-github,
-.fa-instagram {
-  padding: 10px;
-  font-size: 2.2em;
-  color: #08fdd8;
-}
-
-/*Fin de footer*/
 .container-bienvenida {
   display: flex;
   flex-direction: column;
@@ -148,5 +224,33 @@ main {
 .container-bienvenida h2 {
   font-size: 3rem;
 }
+
+/*Fin index*/
+/*Comienzo pagina portfolio*/
+.box-portfolio {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box-portfolio .art-portfolio {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 1em;
+  transition: 1s;
+}
+.box-portfolio .art-portfolio:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+.box-portfolio .art-portfolio img {
+  width: 30em;
+  border-radius: 10px;
+  border: 1px solid #08fdd8;
+}
+
+/*Fin pagina portfolio**/
 
 /*# sourceMappingURL=style.css.map */

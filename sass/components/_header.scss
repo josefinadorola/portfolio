@@ -1,3 +1,5 @@
+@import '../base/colores';
+
 /*Estilos del header*/
 
 .header {
@@ -19,11 +21,11 @@
       /*ordena hacia el costado el navbar*/
 
       .navbar-nav li a {
-        color: #f6f6f6;
+        color: $font-gral;
 
         &:hover {
           text-decoration: line-through !important;
-          color: #08fdd8 !important;
+          color: $first-color !important;
         }
       }
     }

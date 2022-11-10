@@ -1,0 +1,46 @@
+@import '../base/colores';
+
+/*css del footer*/
+ .footer {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   padding: 20px;
+
+   &:hover {
+     transform: scale(1.2);
+     color: $first-color;
+   }
+
+   .redes {
+     display: flex;
+     justify-content: center;
+   }
+
+
+
+   .copyright {
+     display: flex;
+     justify-content: center;
+     font-size: 0.8em;
+   }
+
+   /*Clase para las imagenes de redes sociales*/
+   .fa-linkedin,
+   .fa-github,
+   .fa-instagram {
+     padding: 10px;
+     font-size: 2.2em;
+     color: $first-color;
+   }
+
+ }
+
+ .footer-paginas{
+  position: relative;
+ }
+
+ /*Fin de footer*/

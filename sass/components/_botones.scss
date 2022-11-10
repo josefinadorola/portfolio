@@ -1,0 +1,29 @@
+@import '../base/colores';
+
+    /*Estilos generales de los botones*/
+
+    .boton {
+        border: 1px solid $first-color;
+        padding: 1rem 1.5rem;
+        background-color: transparent;
+        color: $first-color;
+        text-decoration: none;
+        font-size: 17px;
+        letter-spacing: 4px;
+        text-align: center;
+        cursor: pointer;
+        transition: 1s;
+    
+        &:hover{
+            background-color: $first-color;
+            color: $bg-color;
+            
+        }
+    
+        a {
+        text-decoration: none;
+        color: $first-color;
+                
+      }
+    }
+      /*Fin de estilos generales de los botones*/

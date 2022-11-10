@@ -1,17 +1,16 @@
-@import 'listas';
-
+@import 'colores';
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color: nth($colores, 3);
+    color: $font-gral;
 
 }
 
 .body-index{
-    background-color: nth($colores, 1);
+    background-color: $bg-color;
     background-image: url(../assets/img/skyline.png);
     background-position: left;
     background-size: cover;
@@ -21,98 +20,132 @@
 
 
 .body-paginas{
-    background-color: nth($colores, 1);
+    background-color: $bg-color;
 }
 
+a{
+  text-decoration: none;
+}
 
 .active {
     text-decoration: line-through !important;
-    color: nth($colores, 2) !important;
+    color: $first-color !important;
   }
 
- 
 
   main{
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 2rem;
-}
 
     .section{
-        width: 100%;
-        max-width: 1200px;
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 3rem;
+  }
+}
+
+    
+
+
+/*Estilos generales de las pÃ¡ginas*/
+
+.titulos-paginas {
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 3rem 1rem 0;
+  text-align: center;
+
+  .h2-secciones {
+    font-size: 2.5em;
+    font-weight: bold;
+
+  }
+
+
+  .titulo-borde {
+    background: none repeat scroll 0 0 $first-color;
+    height: 0.2rem;
+    width: 7rem;
+    margin-bottom: 3rem;
+    display: block;
+    margin: auto;
+    padding: 0;
+  }
+
+}
+
+
+
+ 
+  .container-bienvenida{
+    display: flex;
+    flex-direction: column;
+     gap: 2rem;
+
+     div{
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        padding: 3rem;
+     }
+   
+     h1{
+        display: flex;
+        justify-content: center;
+
+        #logo-bienvenida{
+            width: 8rem;
+        }
+
+        span{
+            font-size: 10rem;
+            font-weight: bold;
+        }
     }
 
-    /*Estilos generales de los botones*/
+    h2{
+        font-size: 3rem;
+    }  
 
-.boton {
-    border: 1px solid #08fdd8;
-    padding: 1rem 1.5rem;
-    background-color: transparent;
-    color: #08fdd8;
-    text-decoration: none;
-    font-size: 17px;
-    letter-spacing: 4px;
-    text-align: center;
-    cursor: pointer;
+
+}
+/*Fin index*/
+
+
+/*Comienzo pagina portfolio*/
+.box-portfolio {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .art-portfolio {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 1em;
     transition: 1s;
 
-    &:hover{
-        background-color: #08fdd8;
-        color: #222020;
-        
+    &:hover {
+      filter: none;
+      transform: scale(1.1);
     }
 
-    a {
-        text-decoration: none;
-        color: #08fdd8;
+    img {
+      width: 30em;
+      border-radius: 10px;
+      border: 1px solid $first-color;
+     
+    }
 
-        
-  }
-}
-  /*Fin de estilos generales de los botones*/
-
-  /*css del footer*/
-.footer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding: 20px;
-
-    .redes {
-        display: flex;
-        justify-content: center;
-      }
-      
-    
-.copyright {
-    display: flex;
-    justify-content: center;
-    font-size: 0.8em;
-  }
-  }
-
-  .footer i:hover {
-    transform: scale(1.2);
-    color: #08fdd8;
   }
   
-
-/*Clase para las imagenes de redes sociales*/
-.fa-linkedin,
-.fa-github,
-.fa-instagram {
-  padding: 10px;
-  font-size: 2.2em;
-  color: #08fdd8;
 }
 
-/*Fin de footer*/
+
+/*Fin pagina portfolio**/
+
