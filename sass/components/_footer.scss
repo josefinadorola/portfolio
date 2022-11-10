@@ -10,14 +10,12 @@
    bottom: 0;
    padding: 20px;
 
-   &:hover {
-     transform: scale(1.2);
-     color: $first-color;
-   }
+  
 
    .redes {
      display: flex;
      justify-content: center;
+
    }
 
 
@@ -35,6 +33,11 @@
      padding: 10px;
      font-size: 2.2em;
      color: $first-color;
+
+     &:hover {
+      transform: scale(1.2);
+      color: $first-color;
+    }
    }
 
  }

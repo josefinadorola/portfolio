@@ -1,0 +1,34 @@
+@import '../base/colores';
+@import '../base/responsive';
+
+  .container-bienvenida{
+    display: flex;
+    flex-direction: column;
+     gap: 2rem;
+     padding: 6rem;
+
+     div{
+        display: flex;
+        justify-content: center;
+
+        h1{
+          display: flex;
+          justify-content: center;
+  
+          #logo-bienvenida{
+              width: 8rem;
+          }
+  
+          span{
+              font-size: 10rem;
+              font-weight: bold;
+          }
+      }
+  
+      h2{
+          font-size: 3rem;
+      }  
+     }
+
+}
+/*Fin index*/

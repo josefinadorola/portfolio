@@ -1,0 +1,157 @@
+@import 'colores';
+
+@media screen and (max-device-width: 600px) {
+
+    main{
+        .section{
+        margin: 0;
+        padding: 0;
+    }
+
+    }
+
+    .titulos-paginas {
+         padding: 1rem 0 0.5rem;
+
+         .h2-secciones {
+            font-size: 1.8rem;
+            font-weight: bold;
+        
+          }
+    }
+
+    /*Navbar*/
+    .header {
+
+        .container-header {
+
+            .navbar {
+
+                div {
+
+                    a {
+                        width: 80%;
+                    }
+
+                    div {
+                        ul {
+                            padding-top: 1rem;
+
+                            li {
+                                font-size: 1.2rem;
+                                margin-top: 0.5rem;
+                                padding-left: 0.5rem;
+
+
+                                a {
+                                    padding-left: 1rem;
+
+                                }
+
+                            }
+
+
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+/*Navbar*/
+
+    /* bienvenida*/
+    .container-bienvenida {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 3rem;
+
+        div {
+
+            h1 {
+
+                #logo-bienvenida {
+                    width: 5rem;
+                }
+
+                span {
+                    font-size: 6rem;
+                }
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+
+    }
+
+    .boton {
+        font-size: 0.8rem;
+        padding: 0.8rem 1rem;
+    }
+
+    .img-portfolio {
+        width: 15em;
+    }
+
+
+   
+/* Fin bienvenida*/
+
+
+/*Comienzo pagina portfolio*/
+.box-portfolio {
+ 
+    .art-portfolio {
+        margin: 0.5em;
+     
+      img {
+        width: 20em;
+       
+      }
+  
+    }
+    
+  }
+  
+ 
+  .container-nosotros {
+    flex-direction: column;
+    
+    .item-nosotros {
+        width: 20rem;
+         margin: 0;
+
+        .img-nosotros{
+         
+            
+            img{
+                width: 16rem;
+             
+        }
+    }
+
+      }
+
+  }
+  
+  /*Fin pagina portfolio**/
+}
+
+
+@media screen and (max-device-width: 900px) {
+
+    .mision-vision{
+              
+    
+        img{
+     display: none;
+            
+        }
+    
+    }  
+
+}

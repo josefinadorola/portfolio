@@ -1,4 +1,5 @@
 @import '../base/colores';
+@import '../base/responsive';
 
 /*Estilos del header*/
 
@@ -18,7 +19,7 @@
 
     .navbar-collapse {
       flex-grow: 0 !important;
-      /*ordena hacia el costado el navbar*/
+    
 
       .navbar-nav li a {
         color: $font-gral;
