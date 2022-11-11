@@ -3,7 +3,11 @@
 
 /*comienzo pagina nosotros*/
 .nosotros{
-  background: linear-gradient(180deg, $bg-color 50%, $font-gral 50%);
+  background-color: $bg-color;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
 
 
 .container-nosotros {
@@ -22,7 +26,8 @@
         padding: 1rem;
         border-radius: 0.5rem;
         text-align: center;
-        box-shadow: 0 0 6px $bg-color;
+        background-color: $font-gral;
+        box-shadow: 0 0 6px $grey;
       
         .img-nosotros {
             padding: 1rem;
@@ -83,34 +88,38 @@
 }
 
 .mision-vision{
-  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
     display: flex;
     padding: 2rem;
-    align-content: center;
     background-color: $font-gral;
     border-radius: 0.5rem;
     box-shadow: 0 0 6px $grey;
- 
-    
+   
+ div{   
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
 .mv-item{
 
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    margin: 0.5rem;
        
     h3{
         color: $bg-color;
         font-weight: bold;
+        font-size: 2rem;
       
        
     }
 
     span{
         background-color: $first-color;
-        width: 15%;
+        width: 5rem;
         height: 3px;
+        margin-top: 0.5rem;
       }
 
     p{
@@ -120,12 +129,13 @@
    
     }
 }
+ }
 img{
     border-radius: 0.5rem;
     filter: grayscale(100%);
     margin-left: 5rem;
-    transition: 1s;
-
+    transition: all 1s;
+   
     &:hover{
         filter: none;
         

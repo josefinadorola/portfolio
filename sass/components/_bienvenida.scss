@@ -4,31 +4,34 @@
   .container-bienvenida{
     display: flex;
     flex-direction: column;
+    align-content: center;
      gap: 2rem;
      padding: 6rem;
+     width: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+    
 
      div{
         display: flex;
-        justify-content: center;
+        
 
-        h1{
-          display: flex;
-          justify-content: center;
-  
-          #logo-bienvenida{
-              width: 8rem;
-          }
-  
-          span{
-              font-size: 10rem;
-              font-weight: bold;
-          }
+    h1{
+      font-size: 4rem;
+      font-weight: 600;
+      line-height: 5rem;
+      width: 100%;
+     
+      span{
+        color: $first-color;
+        text-shadow: -5px 0 $second-color;
+        font-size: 4.5rem;
+        
       }
-  
-      h2{
-          font-size: 3rem;
-      }  
-     }
+    }
+
+      }
 
 }
 /*Fin index*/
+

@@ -62,43 +62,36 @@
 /*Navbar*/
 
     /* bienvenida*/
-    .container-bienvenida {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        padding: 3rem;
+    .container-bienvenida{
+       padding: 1rem 2rem;
+       margin: 0 auto;
+      
+       div{
+  
+      h1{
+        font-size: 3rem;
+        line-height: 4rem;
 
-        div {
-
-            h1 {
-
-                #logo-bienvenida {
-                    width: 5rem;
-                }
-
-                span {
-                    font-size: 6rem;
-                }
-            }
-
-            h2 {
-                font-size: 2rem;
-            }
+       
+        span{
+          color: $first-color;
+          text-shadow: -5px 0 $second-color;
+          font-size: 3.5rem;
+          
         }
-
-    }
-
-    .boton {
-        font-size: 0.8rem;
-        padding: 0.8rem 1rem;
-    }
-
-    .img-portfolio {
-        width: 15em;
-    }
-
+      }
+  
+        }
+  
+        .boton {
+          font-size: 1rem;
+          padding: 0.8rem 1rem;
+              }
+  }
 
    
+
+       
 /* Fin bienvenida*/
 
 
@@ -121,18 +114,17 @@
 
    /*Página nosotros*/ 
  .nosotros{
-    background-color: $bg-color;
-
+ 
   .container-nosotros {
     flex-direction: column;
-    background-color: $bg-color;
     gap: 1rem;
+    margin-bottom: 2rem;
 
     
     .item-nosotros {
-      background-color: $font-gral;
         width: 20rem;
          margin: 0;
+         box-shadow: none;
 
         .img-nosotros{
            
@@ -146,7 +138,16 @@
 
   }
 }
-  
+
+.container-servicios{
+
+  .col-servicios {
+    text-align: center;
+    width: 90%;
+}
+ 
+}
+ 
 
 }
 
@@ -154,13 +155,30 @@
 @media screen and (max-device-width: 900px) {
 
     .mision-vision{
-              
-    
+      width: 90%; 
+      padding: 1rem 0;   
+       
+      div{
+        padding: 0;
+
+        .mv-item{
+          padding: 0;
+        }
+      }
         img{
      display: none;
             
         }
     
-    }  
+    }
+    
+    .container-servicios{
+
+      .col-servicios {
+        text-align: center;
+        width: 40%;
+    }
+     
+    }
 
 }
