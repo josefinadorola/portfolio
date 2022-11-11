@@ -3,9 +3,11 @@
 @media screen and (max-device-width: 600px) {
 
     main{
+
         .section{
         margin: 0;
         padding: 0;
+        padding-top: 2rem;
     }
 
     }
@@ -22,6 +24,8 @@
 
     /*Navbar*/
     .header {
+      background-color: $bg-color;
+      padding: 0;
 
         .container-header {
 
@@ -62,15 +66,18 @@
 /*Navbar*/
 
     /* bienvenida*/
+.section-bienvenida{
+
     .container-bienvenida{
-       padding: 1rem 2rem;
-       margin: 0 auto;
+       padding: 3rem;
+       
       
        div{
   
       h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 4rem;
+        
 
        
         span{
@@ -89,7 +96,7 @@
               }
   }
 
-   
+} 
 
        
 /* Fin bienvenida*/
@@ -138,20 +145,21 @@
 
   }
 }
-
 .container-servicios{
   flex-direction: column;
+  gap: 1rem;
   
-
   .col-servicios {
     text-align: center;
-    width: 90%;
-}
- 
-}
- 
+    width: 95% !important;
+    margin: 0 auto;
 
 }
+ 
+}
+} 
+
+
 
 
 @media screen and (max-device-width: 900px) {

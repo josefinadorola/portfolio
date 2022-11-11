@@ -1,7 +1,11 @@
 @import '../base/colores';
 @import '../base/responsive';
 
-  .container-bienvenida{
+  
+.section-bienvenida{
+    margin-top: 10rem;
+
+.container-bienvenida{
     display: flex;
     flex-direction: column;
      gap: 2rem;
@@ -32,6 +36,7 @@
 
       }
 
+}
 }
 /*Fin index*/
 
