@@ -2,12 +2,15 @@
 @import '../base/responsive';
 
 /*comienzo pagina nosotros*/
+.nosotros{
+  background: linear-gradient(180deg, $bg-color 50%, $font-gral 50%);
+
 
 .container-nosotros {
-    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 5rem;
 
 
@@ -17,50 +20,88 @@
         justify-content: center;
         width: 25rem;
         padding: 1rem;
-        border: 1px solid $first-color;
-        border-radius: 0.5em;
+        border-radius: 0.5rem;
         text-align: center;
+        box-shadow: 0 0 6px $bg-color;
       
         .img-nosotros {
             padding: 1rem;
 
-
             img {
-                border-radius: 10%;
+              width: 80%;
+              max-width: 100%;
+              height: auto;
+                border-radius: 0.5rem;
                 object-fit: cover;
             }
 
         }
 
-    }
+        .descripcion-nosotros {
+          padding: 0.5em;
+          display: flex;
+          flex-direction: column;
 
-    .titulo-nosotros {
-        color: $first-color;
-        font-size: 2em;
-        padding: 0.5em;
-        font-weight: lighter;
-    }
+          .titulo-nosotros{
+            font-size: 2em;
+            color: $bg-color;
+            font-weight: bold;
+            
+        }
+  
+        span{
+          background-color: $first-color;
+          width: 20%;
+          height: 3px;
+          margin: 1rem auto;
+          }
 
-    .descripcion-nosotros {
-        padding: 0.5em;
-    }
+          p{
+            color: $grey;
+          }
+        
+      }
 
+        .redes-us{
+          display: flex;
+          justify-content: left;
+
+          .fa-instagram, .fa-linkedin {
+            padding: 0.5rem;
+            font-size: 2.2em;
+            color: $bg-color;
+            transition: transform 1s;
+       
+            &:hover {
+             transform: scale(1.2);
+           }
+        }
+      }
+
+    }
+}
 }
 
 .mision-vision{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
     display: flex;
     padding: 2rem;
     align-content: center;
+    background-color: $font-gral;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 6px $grey;
  
     
-article{
+.mv-item{
 
     display: flex;
     flex-direction: column;
     margin: 1rem;
        
     h3{
-        color: $font-gral;
+        color: $bg-color;
         font-weight: bold;
       
        
@@ -76,11 +117,11 @@ article{
         color: $grey;
         text-align: left;
         padding-top: 1rem;
+   
     }
 }
 img{
-    border-radius: 10px;
-    border: 1px solid $font-gral;
+    border-radius: 0.5rem;
     filter: grayscale(100%);
     margin-left: 5rem;
     transition: 1s;

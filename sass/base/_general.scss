@@ -38,17 +38,18 @@ a{
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     padding: 1.5rem;
 
     .section{
       width: 100%;
-      max-width: 1200px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       padding: 1.5rem;
-      gap: 3rem;
-  }
+      margin-bottom: 3rem;
+
+    }
 }
 
     

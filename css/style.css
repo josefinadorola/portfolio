@@ -59,17 +59,24 @@
   .box-portfolio .art-portfolio img {
     width: 20em;
   }
-  .container-nosotros {
-    flex-direction: column;
+  /*Fin pagina portfolio**/
+  /*Página nosotros*/
+  .nosotros {
+    background-color: #181818;
   }
-  .container-nosotros .item-nosotros {
+  .nosotros .container-nosotros {
+    flex-direction: column;
+    background-color: #181818;
+    gap: 1rem;
+  }
+  .nosotros .container-nosotros .item-nosotros {
+    background-color: #f6f6f6;
     width: 20rem;
     margin: 0;
   }
-  .container-nosotros .item-nosotros .img-nosotros img {
-    width: 16rem;
+  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
+    width: 15rem;
   }
-  /*Fin pagina portfolio**/
 }
 @media screen and (max-device-width: 900px) {
   .mision-vision img {
@@ -271,17 +278,24 @@ textarea {
   .box-portfolio .art-portfolio img {
     width: 20em;
   }
-  .container-nosotros {
-    flex-direction: column;
+  /*Fin pagina portfolio**/
+  /*Página nosotros*/
+  .nosotros {
+    background-color: #181818;
   }
-  .container-nosotros .item-nosotros {
+  .nosotros .container-nosotros {
+    flex-direction: column;
+    background-color: #181818;
+    gap: 1rem;
+  }
+  .nosotros .container-nosotros .item-nosotros {
+    background-color: #f6f6f6;
     width: 20rem;
     margin: 0;
   }
-  .container-nosotros .item-nosotros .img-nosotros img {
-    width: 16rem;
+  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
+    width: 15rem;
   }
-  /*Fin pagina portfolio**/
 }
 @media screen and (max-device-width: 900px) {
   .mision-vision img {
@@ -373,17 +387,24 @@ textarea {
   .box-portfolio .art-portfolio img {
     width: 20em;
   }
-  .container-nosotros {
-    flex-direction: column;
+  /*Fin pagina portfolio**/
+  /*Página nosotros*/
+  .nosotros {
+    background-color: #181818;
   }
-  .container-nosotros .item-nosotros {
+  .nosotros .container-nosotros {
+    flex-direction: column;
+    background-color: #181818;
+    gap: 1rem;
+  }
+  .nosotros .container-nosotros .item-nosotros {
+    background-color: #f6f6f6;
     width: 20rem;
     margin: 0;
   }
-  .container-nosotros .item-nosotros .img-nosotros img {
-    width: 16rem;
+  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
+    width: 15rem;
   }
-  /*Fin pagina portfolio**/
 }
 @media screen and (max-device-width: 900px) {
   .mision-vision img {
@@ -391,67 +412,101 @@ textarea {
   }
 }
 /*comienzo pagina nosotros*/
-.container-nosotros {
-  width: 100%;
+.nosotros {
+  background: linear-gradient(180deg, #181818 50%, #f6f6f6 50%);
+}
+.nosotros .container-nosotros {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 5rem;
 }
-.container-nosotros .item-nosotros {
+.nosotros .container-nosotros .item-nosotros {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 25rem;
   padding: 1rem;
-  border: 1px solid #08fdd8;
-  border-radius: 0.5em;
+  border-radius: 0.5rem;
   text-align: center;
+  box-shadow: 0 0 6px #181818;
 }
-.container-nosotros .item-nosotros .img-nosotros {
+.nosotros .container-nosotros .item-nosotros .img-nosotros {
   padding: 1rem;
 }
-.container-nosotros .item-nosotros .img-nosotros img {
-  border-radius: 10%;
+.nosotros .container-nosotros .item-nosotros .img-nosotros img {
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
   object-fit: cover;
 }
-.container-nosotros .titulo-nosotros {
-  color: #08fdd8;
-  font-size: 2em;
+.nosotros .container-nosotros .item-nosotros .descripcion-nosotros {
   padding: 0.5em;
-  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
 }
-.container-nosotros .descripcion-nosotros {
-  padding: 0.5em;
+.nosotros .container-nosotros .item-nosotros .descripcion-nosotros .titulo-nosotros {
+  font-size: 2em;
+  color: #181818;
+  font-weight: bold;
+}
+.nosotros .container-nosotros .item-nosotros .descripcion-nosotros span {
+  background-color: #08fdd8;
+  width: 20%;
+  height: 3px;
+  margin: 1rem auto;
+}
+.nosotros .container-nosotros .item-nosotros .descripcion-nosotros p {
+  color: #8a8787;
+}
+.nosotros .container-nosotros .item-nosotros .redes-us {
+  display: flex;
+  justify-content: left;
+}
+.nosotros .container-nosotros .item-nosotros .redes-us .fa-instagram, .nosotros .container-nosotros .item-nosotros .redes-us .fa-linkedin {
+  padding: 0.5rem;
+  font-size: 2.2em;
+  color: #181818;
+  transition: transform 1s;
+}
+.nosotros .container-nosotros .item-nosotros .redes-us .fa-instagram:hover, .nosotros .container-nosotros .item-nosotros .redes-us .fa-linkedin:hover {
+  transform: scale(1.2);
 }
 
 .mision-vision {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   padding: 2rem;
   align-content: center;
+  background-color: #f6f6f6;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 6px #8a8787;
 }
-.mision-vision article {
+.mision-vision .mv-item {
   display: flex;
   flex-direction: column;
   margin: 1rem;
 }
-.mision-vision article h3 {
-  color: #f6f6f6;
+.mision-vision .mv-item h3 {
+  color: #181818;
   font-weight: bold;
 }
-.mision-vision article span {
+.mision-vision .mv-item span {
   background-color: #08fdd8;
   width: 15%;
   height: 3px;
 }
-.mision-vision article p {
+.mision-vision .mv-item p {
   color: #8a8787;
   text-align: left;
   padding-top: 1rem;
 }
 .mision-vision img {
-  border-radius: 10px;
-  border: 1px solid #f6f6f6;
+  border-radius: 0.5rem;
   filter: grayscale(100%);
   margin-left: 5rem;
   transition: 1s;
@@ -520,17 +575,24 @@ textarea {
   .box-portfolio .art-portfolio img {
     width: 20em;
   }
-  .container-nosotros {
-    flex-direction: column;
+  /*Fin pagina portfolio**/
+  /*Página nosotros*/
+  .nosotros {
+    background-color: #181818;
   }
-  .container-nosotros .item-nosotros {
+  .nosotros .container-nosotros {
+    flex-direction: column;
+    background-color: #181818;
+    gap: 1rem;
+  }
+  .nosotros .container-nosotros .item-nosotros {
+    background-color: #f6f6f6;
     width: 20rem;
     margin: 0;
   }
-  .container-nosotros .item-nosotros .img-nosotros img {
-    width: 16rem;
+  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
+    width: 15rem;
   }
-  /*Fin pagina portfolio**/
 }
 @media screen and (max-device-width: 900px) {
   .mision-vision img {
@@ -621,17 +683,24 @@ textarea {
   .box-portfolio .art-portfolio img {
     width: 20em;
   }
-  .container-nosotros {
-    flex-direction: column;
+  /*Fin pagina portfolio**/
+  /*Página nosotros*/
+  .nosotros {
+    background-color: #181818;
   }
-  .container-nosotros .item-nosotros {
+  .nosotros .container-nosotros {
+    flex-direction: column;
+    background-color: #181818;
+    gap: 1rem;
+  }
+  .nosotros .container-nosotros .item-nosotros {
+    background-color: #f6f6f6;
     width: 20rem;
     margin: 0;
   }
-  .container-nosotros .item-nosotros .img-nosotros img {
-    width: 16rem;
+  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
+    width: 15rem;
   }
-  /*Fin pagina portfolio**/
 }
 @media screen and (max-device-width: 900px) {
   .mision-vision img {
@@ -776,17 +845,24 @@ textarea {
   .box-portfolio .art-portfolio img {
     width: 20em;
   }
-  .container-nosotros {
-    flex-direction: column;
+  /*Fin pagina portfolio**/
+  /*Página nosotros*/
+  .nosotros {
+    background-color: #181818;
   }
-  .container-nosotros .item-nosotros {
+  .nosotros .container-nosotros {
+    flex-direction: column;
+    background-color: #181818;
+    gap: 1rem;
+  }
+  .nosotros .container-nosotros .item-nosotros {
+    background-color: #f6f6f6;
     width: 20rem;
     margin: 0;
   }
-  .container-nosotros .item-nosotros .img-nosotros img {
-    width: 16rem;
+  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
+    width: 15rem;
   }
-  /*Fin pagina portfolio**/
 }
 @media screen and (max-device-width: 900px) {
   .mision-vision img {
@@ -827,16 +903,16 @@ main {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   padding: 1.5rem;
 }
 main .section {
   width: 100%;
-  max-width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 1.5rem;
-  gap: 3rem;
+  margin-bottom: 3rem;
 }
 
 /*Estilos generales de las pÃ¡ginas*/
@@ -920,17 +996,24 @@ main .section {
   .box-portfolio .art-portfolio img {
     width: 20em;
   }
-  .container-nosotros {
-    flex-direction: column;
+  /*Fin pagina portfolio**/
+  /*Página nosotros*/
+  .nosotros {
+    background-color: #181818;
   }
-  .container-nosotros .item-nosotros {
+  .nosotros .container-nosotros {
+    flex-direction: column;
+    background-color: #181818;
+    gap: 1rem;
+  }
+  .nosotros .container-nosotros .item-nosotros {
+    background-color: #f6f6f6;
     width: 20rem;
     margin: 0;
   }
-  .container-nosotros .item-nosotros .img-nosotros img {
-    width: 16rem;
+  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
+    width: 15rem;
   }
-  /*Fin pagina portfolio**/
 }
 @media screen and (max-device-width: 900px) {
   .mision-vision img {

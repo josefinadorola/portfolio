@@ -117,19 +117,27 @@
     
   }
   
- 
+    /*Fin pagina portfolio**/
+
+   /*Página nosotros*/ 
+ .nosotros{
+    background-color: $bg-color;
+
   .container-nosotros {
     flex-direction: column;
+    background-color: $bg-color;
+    gap: 1rem;
+
     
     .item-nosotros {
+      background-color: $font-gral;
         width: 20rem;
          margin: 0;
 
         .img-nosotros{
-         
-            
+           
             img{
-                width: 16rem;
+                width: 15rem;
              
         }
     }
@@ -137,8 +145,9 @@
       }
 
   }
+}
   
-  /*Fin pagina portfolio**/
+
 }
 
 
