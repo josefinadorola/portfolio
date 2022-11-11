@@ -4,9 +4,11 @@
 /*Comienzo pagina portfolio*/
 .box-portfolio {
     width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
   
     .art-portfolio {
       display: flex;

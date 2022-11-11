@@ -4,7 +4,6 @@
   .container-bienvenida{
     display: flex;
     flex-direction: column;
-    align-content: center;
      gap: 2rem;
      padding: 6rem;
      width: 100%;
@@ -14,14 +13,15 @@
 
      div{
         display: flex;
+        align-content: center;
         
 
     h1{
       font-size: 4rem;
       font-weight: 600;
       line-height: 5rem;
-      width: 100%;
-     
+      
+          
       span{
         color: $first-color;
         text-shadow: -5px 0 $second-color;

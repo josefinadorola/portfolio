@@ -6,10 +6,7 @@
     max-width: 1200px;
     width: 95%;
     margin: 0 auto;
-  }
-  
-  form {
-    padding: 50px;
+    padding: 1rem;
     border: 1px solid $first-color;
     background-color: transparent;
     text-align: left;
@@ -17,7 +14,7 @@
     label {
       display: block;
       text-align: left;
-      font-size: 1em;
+      font-size: 1rem;
     }
 
     input {
@@ -27,6 +24,7 @@
       border-radius: 3px;
       background-color: $font-gral; 
       color: $grey;
+      font-size: 0.8rem;
     }
 
     .boton {
@@ -39,7 +37,6 @@
         font-weight: bold;
       }
     }
-  }
   
   textarea {
     width: 100%;
@@ -47,11 +44,13 @@
     border-radius: 3px;
     background-color: $font-gral;
     margin: 8px 0;
-    padding: 3px 10px;
+    padding: 3px;
     resize: none;
     display: block;  
     color: $grey;
+    font-size: 0.8rem;
   }
+}
   
     
   /*Fin CSS formulario*/

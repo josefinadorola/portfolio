@@ -23,21 +23,41 @@
         flex-direction: column;
         justify-content: center;
         width: 25rem;
+        height: auto;
         padding: 1rem;
         border-radius: 0.5rem;
         text-align: center;
         background-color: $font-gral;
         box-shadow: 0 0 6px $grey;
+        position: relative;
       
         .img-nosotros {
             padding: 1rem;
-
-            img {
-              width: 80%;
+            width: 3rem;
+            height: 5rem;
               max-width: 100%;
-              height: auto;
+            
+            
+            &:hover{
+             
+              .img2{
+                opacity: 30%;
+                transition: all 1s;
+                object-fit: cover;
+              }
+            }
+            
+            .img1{
+              position: absolute;
+            }
+
+            .img2 {
+              
                 border-radius: 0.5rem;
                 object-fit: cover;
+                position: absolute;
+
+                
             }
 
         }
