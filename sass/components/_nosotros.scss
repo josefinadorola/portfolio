@@ -7,7 +7,13 @@
   width: 100%;
   padding: 0;
   margin: 0;
-
+  
+  .titulo-nosotros{
+    font-size: 2em;
+    color: $bg-color;
+    font-weight: bold;
+    
+}
 
 
 .container-nosotros {
@@ -16,102 +22,106 @@
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
+    justify-content: center;
 
 
     .item-nosotros {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        gap: 1rem;
         width: 25rem;
-        height: auto;
-        padding: 1rem;
+        height: 45rem;
+        padding: 2rem;
         border-radius: 0.5rem;
         text-align: center;
         background-color: $font-gral;
         box-shadow: 0 0 6px $grey;
+                
+       .img-nosotros{
+        width: 15rem;
+        height: 25rem;
         position: relative;
-      
-        .img-nosotros {
-            padding: 1rem;
-            width: 3rem;
-            height: 5rem;
-              max-width: 100%;
-            
-            
-            &:hover{
-             
-              .img2{
-                opacity: 30%;
-                transition: all 1s;
-                object-fit: cover;
-              }
-            }
-            
+        overflow: hidden;
+        margin: 1rem auto;
+        border-radius: 0.5rem;
+        box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+       
+        
+        &:hover .img2{
+          opacity: 30%;
+        }
+
+       
             .img1{
+              width: 100%;
+              height: 100%;
               position: absolute;
+              top: 0;
+              left: 0;
+
+             
             }
 
             .img2 {
-              
-                border-radius: 0.5rem;
-                object-fit: cover;
-                position: absolute;
-
+              width: 100%;
+              height: 100%; 
+              position: absolute;
+              top: 0;
+              left: 0;
+              transition: all 1s;
                 
             }
 
         }
 
-        .descripcion-nosotros {
-          padding: 0.5em;
+        .item-descripcion{
           display: flex;
           flex-direction: column;
 
-          .titulo-nosotros{
-            font-size: 2em;
-            color: $bg-color;
-            font-weight: bold;
-            
-        }
-  
-        span{
-          background-color: $first-color;
-          width: 20%;
-          height: 3px;
-          margin: 1rem auto;
+
+
+            span{
+             background-color: $first-color;
+             width: 5rem;
+              height: 3px;
+              margin: 1rem auto;
           }
 
           p{
             color: $grey;
           }
-        
-      }
 
-        .redes-us{
-          display: flex;
-          justify-content: left;
-
-          .fa-instagram, .fa-linkedin {
-            padding: 0.5rem;
-            font-size: 2.2em;
-            color: $bg-color;
-            transition: transform 1s;
-       
-            &:hover {
-             transform: scale(1.2);
-           }
         }
+        
+          .redes-us{
+            display: flex;
+            justify-content: left;
+  
+            .fa-instagram, .fa-linkedin {
+              padding: 0.5rem;
+              font-size: 2.2em;
+              color: $bg-color;
+              transition: transform 1s;
+         
+              &:hover {
+               transform: scale(1.2);
+             }
+          }
+        }
+
+
       }
+      }    
 
     }
-}
-}
+
+
 
 .mision-vision{
   max-width: 1200px;
   margin: 0 auto;
     display: flex;
-    padding: 2rem;
+    padding: 2rem 5rem;
     background-color: $font-gral;
     border-radius: 0.5rem;
     box-shadow: 0 0 6px $grey;
@@ -126,6 +136,7 @@
     display: flex;
     flex-direction: column;
     margin: 0.5rem;
+    
        
     h3{
         color: $bg-color;
@@ -151,9 +162,12 @@
 }
  }
 img{
+  width: 20rem;
+  height: 30rem;
+  margin: auto;
     border-radius: 0.5rem;
     filter: grayscale(100%);
-    margin-left: 5rem;
+   
     transition: all 1s;
    
     &:hover{

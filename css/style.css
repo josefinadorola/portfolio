@@ -16,7 +16,10 @@
   /*Navbar*/
   .header {
     background-color: #181818;
+    opacity: 95%;
     padding: 0;
+    position: fixed;
+    z-index: 2;
   }
   .header .container-header .navbar div a {
     width: 80%;
@@ -79,7 +82,6 @@
   }
   .container-servicios .col-servicios {
     text-align: center;
-    width: 95% !important;
     margin: 0 auto;
   }
 }
@@ -107,8 +109,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  position: fixed;
-  z-index: 1;
   padding: 1rem 0;
 }
 .header .container-header {
@@ -232,7 +232,10 @@
   /*Navbar*/
   .header {
     background-color: #181818;
+    opacity: 95%;
     padding: 0;
+    position: fixed;
+    z-index: 2;
   }
   .header .container-header .navbar div a {
     width: 80%;
@@ -295,7 +298,6 @@
   }
   .container-servicios .col-servicios {
     text-align: center;
-    width: 95% !important;
     margin: 0 auto;
   }
 }
@@ -362,7 +364,10 @@
   /*Navbar*/
   .header {
     background-color: #181818;
+    opacity: 95%;
     padding: 0;
+    position: fixed;
+    z-index: 2;
   }
   .header .container-header .navbar div a {
     width: 80%;
@@ -425,7 +430,6 @@
   }
   .container-servicios .col-servicios {
     text-align: center;
-    width: 95% !important;
     margin: 0 auto;
   }
 }
@@ -455,62 +459,69 @@
   padding: 0;
   margin: 0;
 }
+.nosotros .titulo-nosotros {
+  font-size: 2em;
+  color: #181818;
+  font-weight: bold;
+}
 .nosotros .container-nosotros {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
+  justify-content: center;
 }
 .nosotros .container-nosotros .item-nosotros {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 1rem;
   width: 25rem;
-  height: auto;
-  padding: 1rem;
+  height: 45rem;
+  padding: 2rem;
   border-radius: 0.5rem;
   text-align: center;
   background-color: #f6f6f6;
   box-shadow: 0 0 6px #8a8787;
-  position: relative;
 }
 .nosotros .container-nosotros .item-nosotros .img-nosotros {
-  padding: 1rem;
-  width: 3rem;
-  height: 5rem;
-  max-width: 100%;
+  width: 15rem;
+  height: 25rem;
+  position: relative;
+  overflow: hidden;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
 }
 .nosotros .container-nosotros .item-nosotros .img-nosotros:hover .img2 {
   opacity: 30%;
-  transition: all 1s;
-  object-fit: cover;
 }
 .nosotros .container-nosotros .item-nosotros .img-nosotros .img1 {
+  width: 100%;
+  height: 100%;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 .nosotros .container-nosotros .item-nosotros .img-nosotros .img2 {
-  border-radius: 0.5rem;
-  object-fit: cover;
+  width: 100%;
+  height: 100%;
   position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 1s;
 }
-.nosotros .container-nosotros .item-nosotros .descripcion-nosotros {
-  padding: 0.5em;
+.nosotros .container-nosotros .item-nosotros .item-descripcion {
   display: flex;
   flex-direction: column;
 }
-.nosotros .container-nosotros .item-nosotros .descripcion-nosotros .titulo-nosotros {
-  font-size: 2em;
-  color: #181818;
-  font-weight: bold;
-}
-.nosotros .container-nosotros .item-nosotros .descripcion-nosotros span {
+.nosotros .container-nosotros .item-nosotros .item-descripcion span {
   background-color: #08fdd8;
-  width: 20%;
+  width: 5rem;
   height: 3px;
   margin: 1rem auto;
 }
-.nosotros .container-nosotros .item-nosotros .descripcion-nosotros p {
+.nosotros .container-nosotros .item-nosotros .item-descripcion p {
   color: #8a8787;
 }
 .nosotros .container-nosotros .item-nosotros .redes-us {
@@ -531,7 +542,7 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  padding: 2rem;
+  padding: 2rem 5rem;
   background-color: #f6f6f6;
   border-radius: 0.5rem;
   box-shadow: 0 0 6px #8a8787;
@@ -563,9 +574,11 @@
   padding-top: 1rem;
 }
 .mision-vision img {
+  width: 20rem;
+  height: 30rem;
+  margin: auto;
   border-radius: 0.5rem;
   filter: grayscale(100%);
-  margin-left: 5rem;
   transition: all 1s;
 }
 .mision-vision img:hover {
@@ -589,7 +602,10 @@
   /*Navbar*/
   .header {
     background-color: #181818;
+    opacity: 95%;
     padding: 0;
+    position: fixed;
+    z-index: 2;
   }
   .header .container-header .navbar div a {
     width: 80%;
@@ -652,7 +668,6 @@
   }
   .container-servicios .col-servicios {
     text-align: center;
-    width: 95% !important;
     margin: 0 auto;
   }
 }
@@ -688,7 +703,9 @@
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  margin: 1em;
+  margin: 1rem;
+  width: 30rem;
+  overflow: hidden;
   transition: 1s;
 }
 .box-portfolio .art-portfolio:hover {
@@ -696,7 +713,7 @@
   transform: scale(1.1);
 }
 .box-portfolio .art-portfolio img {
-  width: 30rem;
+  width: 100%;
   border-radius: 10px;
   border: 1px solid #08fdd8;
 }
@@ -718,7 +735,10 @@
   /*Navbar*/
   .header {
     background-color: #181818;
+    opacity: 95%;
     padding: 0;
+    position: fixed;
+    z-index: 2;
   }
   .header .container-header .navbar div a {
     width: 80%;
@@ -781,7 +801,6 @@
   }
   .container-servicios .col-servicios {
     text-align: center;
-    width: 95% !important;
     margin: 0 auto;
   }
 }
@@ -807,14 +826,13 @@
 /*Estilos de servicios*/
 .container-servicios {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  gap: 2rem;
+  gap: 1rem;
+  justify-content: center;
 }
 .container-servicios .ico-servicios {
   display: flex;
@@ -827,10 +845,9 @@
 .container-servicios .col-servicios {
   display: flex;
   flex-direction: column;
-  width: 20%;
-  margin: 0 auto;
+  width: 18rem !important;
   background-color: #f6f6f6;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 0.5em;
   overflow: hidden;
   transition: all 300ms;
@@ -909,7 +926,10 @@
   /*Navbar*/
   .header {
     background-color: #181818;
+    opacity: 95%;
     padding: 0;
+    position: fixed;
+    z-index: 2;
   }
   .header .container-header .navbar div a {
     width: 80%;
@@ -972,7 +992,6 @@
   }
   .container-servicios .col-servicios {
     text-align: center;
-    width: 95% !important;
     margin: 0 auto;
   }
 }
@@ -1104,7 +1123,10 @@ main .section {
   /*Navbar*/
   .header {
     background-color: #181818;
+    opacity: 95%;
     padding: 0;
+    position: fixed;
+    z-index: 2;
   }
   .header .container-header .navbar div a {
     width: 80%;
@@ -1167,7 +1189,6 @@ main .section {
   }
   .container-servicios .col-servicios {
     text-align: center;
-    width: 95% !important;
     margin: 0 auto;
   }
 }
