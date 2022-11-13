@@ -12,9 +12,7 @@
     font-size: 2em;
     color: $bg-color;
     font-weight: bold;
-    
-}
-
+  } 
 
 .container-nosotros {
     max-width: 1200px;
@@ -38,7 +36,7 @@
         box-shadow: 0 0 6px $grey;
                 
        .img-nosotros{
-        width: 15rem;
+        width: 12rem;
         height: 25rem;
         position: relative;
         overflow: hidden;
@@ -46,11 +44,6 @@
         border-radius: 0.5rem;
         box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
        
-        
-        &:hover .img2{
-          opacity: 30%;
-        }
-
        
             .img1{
               width: 100%;
@@ -58,18 +51,7 @@
               position: absolute;
               top: 0;
               left: 0;
-
              
-            }
-
-            .img2 {
-              width: 100%;
-              height: 100%; 
-              position: absolute;
-              top: 0;
-              left: 0;
-              transition: all 1s;
-                
             }
 
         }
@@ -113,14 +95,16 @@
       }
       }    
 
-    }
+    
+  }
 
 
 
 .mision-vision{
+  width: 90%; 
   max-width: 1200px;
   margin: 0 auto;
-    display: flex;
+  display: flex;
     padding: 2rem 5rem;
     background-color: $font-gral;
     border-radius: 0.5rem;
