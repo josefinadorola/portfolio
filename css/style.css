@@ -64,12 +64,10 @@
     margin-bottom: 2rem;
   }
   .box-portfolio .art-portfolio {
-    display: flex;
-    justify-content: center;
-    margin: 0.5em;
+    margin: 0 auto;
   }
   .box-portfolio .art-portfolio img {
-    width: 20em;
+    width: 22em;
     border-radius: 0.5rem;
     border: 1px solid #08fdd8;
   }
@@ -301,12 +299,10 @@
     margin-bottom: 2rem;
   }
   .box-portfolio .art-portfolio {
-    display: flex;
-    justify-content: center;
-    margin: 0.5em;
+    margin: 0 auto;
   }
   .box-portfolio .art-portfolio img {
-    width: 20em;
+    width: 22em;
     border-radius: 0.5rem;
     border: 1px solid #08fdd8;
   }
@@ -454,12 +450,10 @@
     margin-bottom: 2rem;
   }
   .box-portfolio .art-portfolio {
-    display: flex;
-    justify-content: center;
-    margin: 0.5em;
+    margin: 0 auto;
   }
   .box-portfolio .art-portfolio img {
-    width: 20em;
+    width: 22em;
     border-radius: 0.5rem;
     border: 1px solid #08fdd8;
   }
@@ -708,12 +702,10 @@
     margin-bottom: 2rem;
   }
   .box-portfolio .art-portfolio {
-    display: flex;
-    justify-content: center;
-    margin: 0.5em;
+    margin: 0 auto;
   }
   .box-portfolio .art-portfolio img {
-    width: 20em;
+    width: 22em;
     border-radius: 0.5rem;
     border: 1px solid #08fdd8;
   }
@@ -849,12 +841,10 @@
     margin-bottom: 2rem;
   }
   .box-portfolio .art-portfolio {
-    display: flex;
-    justify-content: center;
-    margin: 0.5em;
+    margin: 0 auto;
   }
   .box-portfolio .art-portfolio img {
-    width: 20em;
+    width: 22em;
     border-radius: 0.5rem;
     border: 1px solid #08fdd8;
   }
@@ -1061,12 +1051,10 @@
     margin-bottom: 2rem;
   }
   .box-portfolio .art-portfolio {
-    display: flex;
-    justify-content: center;
-    margin: 0.5em;
+    margin: 0 auto;
   }
   .box-portfolio .art-portfolio img {
-    width: 20em;
+    width: 22em;
     border-radius: 0.5rem;
     border: 1px solid #08fdd8;
   }
@@ -1132,7 +1120,7 @@
 
 .body-index {
   background-color: #181818;
-  background-image: url(../assets/img/skyline.png);
+  background-image: url(../assets/img/skyline.webp);
   background-position: left;
   background-size: cover;
   background-attachment: fixed;
@@ -1279,12 +1267,10 @@ main .section {
     margin-bottom: 2rem;
   }
   .box-portfolio .art-portfolio {
-    display: flex;
-    justify-content: center;
-    margin: 0.5em;
+    margin: 0 auto;
   }
   .box-portfolio .art-portfolio img {
-    width: 20em;
+    width: 22em;
     border-radius: 0.5rem;
     border: 1px solid #08fdd8;
   }

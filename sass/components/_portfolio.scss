@@ -3,15 +3,18 @@
 
 /*Comienzo pagina portfolio*/
 
+
+
 .box-portfolio {
   display: none;
+  
 }
 
 .carousel {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
-
+  
   .carousel-inner {
     .carousel-item {
       img {

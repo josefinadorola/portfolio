@@ -115,16 +115,15 @@
     flex-direction: column;
     gap: 0.5rem;
     margin-bottom: 2rem;
+    
 
 
     .art-portfolio {
-      display: flex;
-      justify-content: center;
-      margin: 0.5em;
+         margin: 0 auto;
 
 
       img {
-        width: 20em;
+        width: 22em;
         border-radius: 0.5rem;
         border: 1px solid $first-color;
       }
