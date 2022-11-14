@@ -25,7 +25,6 @@
     /*Navbar*/
     .header {
       background-color: $bg-color;
-      opacity: 95%;
       padding: 0;
       position: fixed;
       z-index: 2;
@@ -38,6 +37,7 @@
 
                     a {
                         width: 80%;
+                        
                     }
 
                     div {
@@ -48,7 +48,6 @@
                                 margin-top: 0.5rem;
                                 padding: 1rem;
                                 border-bottom: 1px dashed $first-color;
-
 
                                 a {
                                     padding-left: 1rem;
@@ -72,22 +71,21 @@
 .section-bienvenida{
 
     .container-bienvenida{
-       padding: 3rem;
-       
-       
-      
+       padding: 4rem 2.5rem;
+             
        div{
 
       h1{
         
-        font-size: 2rem;
-        line-height: 3.5rem;
-        margin: 0 auto;
+        font-size: 3rem;
+        line-height: 4rem;
+        font-weight: 500;
+        padding: 0.5rem 0;
        
         span{
           color: $first-color;
           text-shadow: -5px 0 $second-color;
-          font-size: 2.5rem;
+          font-size: 3rem;
           
         }
       }
@@ -95,8 +93,8 @@
         }
   
         .boton {
-          font-size: 0.8rem;
-          padding: 0.8rem;
+          font-size: 1rem;
+          padding: 1rem;
           margin: 0 auto;
           letter-spacing: 2px;
 

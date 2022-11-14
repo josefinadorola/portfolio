@@ -23,7 +23,9 @@
       flex-grow: 0 !important;
     
 
-      .navbar-nav li a {
+      .navbar-nav li {
+      
+      a {
         color: $font-gral;
 
         &:hover {
@@ -33,6 +35,7 @@
       }
     }
   }
+}
 }
 
 /*Fin del header*/

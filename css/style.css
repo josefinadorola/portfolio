@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 @media screen and (max-device-width: 600px) {
   main .section {
     margin: 0;
@@ -16,7 +16,6 @@
   /*Navbar*/
   .header {
     background-color: #181818;
-    opacity: 95%;
     padding: 0;
     position: fixed;
     z-index: 2;
@@ -36,21 +35,22 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 3rem;
+    padding: 4rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 2rem;
-    line-height: 3.5rem;
-    margin: 0 auto;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
   }
   .section-bienvenida .container-bienvenida div h1 span {
     color: #08fdd8;
     text-shadow: -5px 0 #d12c50;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .section-bienvenida .container-bienvenida .boton {
-    font-size: 0.8rem;
-    padding: 0.8rem;
+    font-size: 1rem;
+    padding: 1rem;
     margin: 0 auto;
     letter-spacing: 2px;
   }
@@ -239,7 +239,6 @@
   /*Navbar*/
   .header {
     background-color: #181818;
-    opacity: 95%;
     padding: 0;
     position: fixed;
     z-index: 2;
@@ -259,21 +258,22 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 3rem;
+    padding: 4rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 2rem;
-    line-height: 3.5rem;
-    margin: 0 auto;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
   }
   .section-bienvenida .container-bienvenida div h1 span {
     color: #08fdd8;
     text-shadow: -5px 0 #d12c50;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .section-bienvenida .container-bienvenida .boton {
-    font-size: 0.8rem;
-    padding: 0.8rem;
+    font-size: 1rem;
+    padding: 1rem;
     margin: 0 auto;
     letter-spacing: 2px;
   }
@@ -378,7 +378,6 @@
   /*Navbar*/
   .header {
     background-color: #181818;
-    opacity: 95%;
     padding: 0;
     position: fixed;
     z-index: 2;
@@ -398,21 +397,22 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 3rem;
+    padding: 4rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 2rem;
-    line-height: 3.5rem;
-    margin: 0 auto;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
   }
   .section-bienvenida .container-bienvenida div h1 span {
     color: #08fdd8;
     text-shadow: -5px 0 #d12c50;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .section-bienvenida .container-bienvenida .boton {
-    font-size: 0.8rem;
-    padding: 0.8rem;
+    font-size: 1rem;
+    padding: 1rem;
     margin: 0 auto;
     letter-spacing: 2px;
   }
@@ -507,7 +507,7 @@
 }
 .nosotros .container-nosotros .item-nosotros .img-nosotros {
   width: 12rem;
-  height: 25rem;
+  height: 20rem;
   position: relative;
   overflow: hidden;
   margin: 1rem auto;
@@ -524,6 +524,9 @@
 .nosotros .container-nosotros .item-nosotros .item-descripcion {
   display: flex;
   flex-direction: column;
+}
+.nosotros .container-nosotros .item-nosotros .item-descripcion h3 {
+  padding: 0 2rem;
 }
 .nosotros .container-nosotros .item-nosotros .item-descripcion span {
   background-color: #08fdd8;
@@ -613,7 +616,6 @@
   /*Navbar*/
   .header {
     background-color: #181818;
-    opacity: 95%;
     padding: 0;
     position: fixed;
     z-index: 2;
@@ -633,21 +635,22 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 3rem;
+    padding: 4rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 2rem;
-    line-height: 3.5rem;
-    margin: 0 auto;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
   }
   .section-bienvenida .container-bienvenida div h1 span {
     color: #08fdd8;
     text-shadow: -5px 0 #d12c50;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .section-bienvenida .container-bienvenida .boton {
-    font-size: 0.8rem;
-    padding: 0.8rem;
+    font-size: 1rem;
+    padding: 1rem;
     margin: 0 auto;
     letter-spacing: 2px;
   }
@@ -753,7 +756,6 @@
   /*Navbar*/
   .header {
     background-color: #181818;
-    opacity: 95%;
     padding: 0;
     position: fixed;
     z-index: 2;
@@ -773,21 +775,22 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 3rem;
+    padding: 4rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 2rem;
-    line-height: 3.5rem;
-    margin: 0 auto;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
   }
   .section-bienvenida .container-bienvenida div h1 span {
     color: #08fdd8;
     text-shadow: -5px 0 #d12c50;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .section-bienvenida .container-bienvenida .boton {
-    font-size: 0.8rem;
-    padding: 0.8rem;
+    font-size: 1rem;
+    padding: 1rem;
     margin: 0 auto;
     letter-spacing: 2px;
   }
@@ -951,7 +954,6 @@
   /*Navbar*/
   .header {
     background-color: #181818;
-    opacity: 95%;
     padding: 0;
     position: fixed;
     z-index: 2;
@@ -971,21 +973,22 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 3rem;
+    padding: 4rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 2rem;
-    line-height: 3.5rem;
-    margin: 0 auto;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
   }
   .section-bienvenida .container-bienvenida div h1 span {
     color: #08fdd8;
     text-shadow: -5px 0 #d12c50;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .section-bienvenida .container-bienvenida .boton {
-    font-size: 0.8rem;
-    padding: 0.8rem;
+    font-size: 1rem;
+    padding: 1rem;
     margin: 0 auto;
     letter-spacing: 2px;
   }
@@ -1155,7 +1158,6 @@ main .section {
   /*Navbar*/
   .header {
     background-color: #181818;
-    opacity: 95%;
     padding: 0;
     position: fixed;
     z-index: 2;
@@ -1175,21 +1177,22 @@ main .section {
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 3rem;
+    padding: 4rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 2rem;
-    line-height: 3.5rem;
-    margin: 0 auto;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
   }
   .section-bienvenida .container-bienvenida div h1 span {
     color: #08fdd8;
     text-shadow: -5px 0 #d12c50;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .section-bienvenida .container-bienvenida .boton {
-    font-size: 0.8rem;
-    padding: 0.8rem;
+    font-size: 1rem;
+    padding: 1rem;
     margin: 0 auto;
     letter-spacing: 2px;
   }
