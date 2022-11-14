@@ -102,7 +102,6 @@
 }
 
 
-
 .mision-vision {
   width: 90%;
   max-width: 1200px;
@@ -192,7 +191,8 @@
   .col-servicios {
     display: flex;
     flex-direction: column;
-    width: 18rem !important;
+    width: 16rem !important;
+    height: auto;
     background-color: $font-gral;
     padding: 0.5rem;
     border-radius: 0.5em;
@@ -204,12 +204,13 @@
       background-color: $first-color;
       width: 20%;
       height: 3px;
-      margin: 1rem auto;
+      margin: 0.5rem auto;
     }
 
     h3 {
       color: $bg-color;
       font-weight: 600;
+      font-size: 1.3rem;
 
     }
 

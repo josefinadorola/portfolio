@@ -661,7 +661,8 @@
 .container-servicios .col-servicios {
   display: flex;
   flex-direction: column;
-  width: 18rem !important;
+  width: 16rem !important;
+  height: auto;
   background-color: #f6f6f6;
   padding: 0.5rem;
   border-radius: 0.5em;
@@ -672,11 +673,12 @@
   background-color: #08fdd8;
   width: 20%;
   height: 3px;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
 }
 .container-servicios .col-servicios h3 {
   color: #181818;
   font-weight: 600;
+  font-size: 1.3rem;
 }
 .container-servicios .col-servicios p {
   font-size: 1em;
