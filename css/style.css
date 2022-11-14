@@ -712,30 +712,13 @@
   }
 }
 /*Comienzo pagina portfolio*/
-.box-portfolio {
-  width: 100%;
-  max-width: 1200px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.carousel {
+  width: 90%;
+  max-width: 900px;
   margin: 0 auto;
 }
-.box-portfolio .art-portfolio {
-  display: flex;
-  justify-content: center;
-  border-radius: 10px;
-  margin: 1rem;
-  width: 30rem;
-  overflow: hidden;
-  transition: 1s;
-}
-.box-portfolio .art-portfolio:hover {
-  filter: none;
-  transform: scale(1.1);
-}
-.box-portfolio .art-portfolio img {
-  width: 100%;
-  border-radius: 10px;
+.carousel .carousel-inner .carousel-item img {
+  border-radius: 0.5rem;
   border: 1px solid #08fdd8;
 }
 
