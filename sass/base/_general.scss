@@ -10,8 +10,9 @@
 
 }
 
+
 .body-index {
-  background-color: $bg-color;
+   background-color: $bg-color;
   background-image: url(../assets/img/skyline.webp);
   background-position: left;
   background-size: cover;
@@ -35,12 +36,13 @@ a {
 
 
 main {
-  width: 100%;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-content: center;
   padding-top: 3rem;
+  margin: 0 auto;
 
 
   .section {
