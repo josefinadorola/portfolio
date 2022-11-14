@@ -2,6 +2,11 @@
 @import '../base/responsive';
 
 /*Comienzo pagina portfolio*/
+
+.box-portfolio {
+  display: none;
+}
+
 .carousel {
   width: 90%;
   max-width: 900px;

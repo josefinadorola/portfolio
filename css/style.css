@@ -56,11 +56,25 @@
   }
   /* Fin bienvenida*/
   /*Comienzo pagina portfolio*/
+  .box-portfolio {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
   .box-portfolio .art-portfolio {
+    display: flex;
+    justify-content: center;
     margin: 0.5em;
   }
   .box-portfolio .art-portfolio img {
     width: 20em;
+    border-radius: 0.5rem;
+    border: 1px solid #08fdd8;
+  }
+  .carousel {
+    display: none;
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
@@ -279,11 +293,25 @@
   }
   /* Fin bienvenida*/
   /*Comienzo pagina portfolio*/
+  .box-portfolio {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
   .box-portfolio .art-portfolio {
+    display: flex;
+    justify-content: center;
     margin: 0.5em;
   }
   .box-portfolio .art-portfolio img {
     width: 20em;
+    border-radius: 0.5rem;
+    border: 1px solid #08fdd8;
+  }
+  .carousel {
+    display: none;
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
@@ -418,11 +446,25 @@
   }
   /* Fin bienvenida*/
   /*Comienzo pagina portfolio*/
+  .box-portfolio {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
   .box-portfolio .art-portfolio {
+    display: flex;
+    justify-content: center;
     margin: 0.5em;
   }
   .box-portfolio .art-portfolio img {
     width: 20em;
+    border-radius: 0.5rem;
+    border: 1px solid #08fdd8;
+  }
+  .carousel {
+    display: none;
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
@@ -541,13 +583,15 @@
   display: flex;
   justify-content: left;
 }
-.nosotros .container-nosotros .item-nosotros .redes-us .fa-instagram, .nosotros .container-nosotros .item-nosotros .redes-us .fa-linkedin {
+.nosotros .container-nosotros .item-nosotros .redes-us .fa-instagram,
+.nosotros .container-nosotros .item-nosotros .redes-us .fa-linkedin {
   padding: 0.5rem;
   font-size: 2.2em;
   color: #181818;
   transition: transform 1s;
 }
-.nosotros .container-nosotros .item-nosotros .redes-us .fa-instagram:hover, .nosotros .container-nosotros .item-nosotros .redes-us .fa-linkedin:hover {
+.nosotros .container-nosotros .item-nosotros .redes-us .fa-instagram:hover,
+.nosotros .container-nosotros .item-nosotros .redes-us .fa-linkedin:hover {
   transform: scale(1.2);
 }
 
@@ -656,11 +700,25 @@
   }
   /* Fin bienvenida*/
   /*Comienzo pagina portfolio*/
+  .box-portfolio {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
   .box-portfolio .art-portfolio {
+    display: flex;
+    justify-content: center;
     margin: 0.5em;
   }
   .box-portfolio .art-portfolio img {
     width: 20em;
+    border-radius: 0.5rem;
+    border: 1px solid #08fdd8;
+  }
+  .carousel {
+    display: none;
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
@@ -712,6 +770,10 @@
   }
 }
 /*Comienzo pagina portfolio*/
+.box-portfolio {
+  display: none;
+}
+
 .carousel {
   width: 90%;
   max-width: 900px;
@@ -779,11 +841,25 @@
   }
   /* Fin bienvenida*/
   /*Comienzo pagina portfolio*/
+  .box-portfolio {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
   .box-portfolio .art-portfolio {
+    display: flex;
+    justify-content: center;
     margin: 0.5em;
   }
   .box-portfolio .art-portfolio img {
     width: 20em;
+    border-radius: 0.5rem;
+    border: 1px solid #08fdd8;
+  }
+  .carousel {
+    display: none;
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
@@ -977,11 +1053,25 @@
   }
   /* Fin bienvenida*/
   /*Comienzo pagina portfolio*/
+  .box-portfolio {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
   .box-portfolio .art-portfolio {
+    display: flex;
+    justify-content: center;
     margin: 0.5em;
   }
   .box-portfolio .art-portfolio img {
     width: 20em;
+    border-radius: 0.5rem;
+    border: 1px solid #08fdd8;
+  }
+  .carousel {
+    display: none;
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
@@ -1181,11 +1271,25 @@ main .section {
   }
   /* Fin bienvenida*/
   /*Comienzo pagina portfolio*/
+  .box-portfolio {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
   .box-portfolio .art-portfolio {
+    display: flex;
+    justify-content: center;
     margin: 0.5em;
   }
   .box-portfolio .art-portfolio img {
     width: 20em;
+    border-radius: 0.5rem;
+    border: 1px solid #08fdd8;
+  }
+  .carousel {
+    display: none;
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/

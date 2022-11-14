@@ -10,7 +10,7 @@
   padding: 1rem 0;
 
 
-   .container-header {
+  .container-header {
     width: 100%;
     max-width: 1200px;
 
@@ -21,21 +21,21 @@
 
     .navbar-collapse {
       flex-grow: 0 !important;
-    
+
 
       .navbar-nav li {
-      
-      a {
-        color: $font-gral;
 
-        &:hover {
-          text-decoration: line-through !important;
-          color: $first-color !important;
+        a {
+          color: $font-gral;
+
+          &:hover {
+            text-decoration: line-through !important;
+            color: $first-color !important;
+          }
         }
       }
     }
   }
-}
 }
 
 /*Fin del header*/

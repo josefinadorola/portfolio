@@ -1,42 +1,42 @@
 @import '../base/colores';
 @import '../base/responsive';
 
-  
-.section-bienvenida{
-    margin-top: 10rem;
 
-.container-bienvenida{
+.section-bienvenida {
+  margin-top: 10rem;
+
+  .container-bienvenida {
     display: flex;
     flex-direction: column;
-     gap: 2rem;
-     padding: 6rem;
-     width: 100%;
-     max-width: 1200px;
-     margin: 0 auto;
-    
+    gap: 2rem;
+    padding: 6rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 
-     div{
-        display: flex;
-        align-content: center;
-        
 
-    h1{
-      font-size: 4rem;
-      font-weight: 600;
-      line-height: 5rem;
-      
-          
-      span{
-        color: $first-color;
-        text-shadow: -5px 0 $second-color;
-        font-size: 4.5rem;
-        
+    div {
+      display: flex;
+      align-content: center;
+
+
+      h1 {
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 5rem;
+
+
+        span {
+          color: $first-color;
+          text-shadow: -5px 0 $second-color;
+          font-size: 4.5rem;
+
+        }
       }
+
     }
 
-      }
+  }
+}
 
-}
-}
 /*Fin index*/
-

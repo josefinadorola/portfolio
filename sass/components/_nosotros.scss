@@ -2,19 +2,19 @@
 @import '../base/responsive';
 
 /*comienzo pagina nosotros*/
-.nosotros{
+.nosotros {
   background-color: $bg-color;
   width: 100%;
   padding: 0;
   margin: 0;
-  
-  .titulo-nosotros{
+
+  .titulo-nosotros {
     font-size: 2em;
     color: $bg-color;
     font-weight: bold;
-  } 
+  }
 
-.container-nosotros {
+  .container-nosotros {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -24,149 +24,146 @@
 
 
     .item-nosotros {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        width: 25rem;
-        height: 45rem;
-        padding: 2rem;
-        border-radius: 0.5rem;
-        text-align: center;
-        background-color: $font-gral;
-        box-shadow: 0 0 6px $grey;
-                
-       .img-nosotros{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 25rem;
+      height: 45rem;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      text-align: center;
+      background-color: $font-gral;
+      box-shadow: 0 0 6px $grey;
+
+      .img-nosotros {
         width: 12rem;
         height: 20rem;
         position: relative;
         overflow: hidden;
         margin: 1rem auto;
         border-radius: 0.5rem;
-        box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
-       
-       
-            .img1{
-              width: 100%;
-              height: 100%;
-              position: absolute;
-              top: 0;
-              left: 0;
-             
-            }
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+
+
+        .img1 {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
 
         }
-
-        .item-descripcion{
-          display: flex;
-          flex-direction: column;
-
-          h3{
-            padding: 0 2rem;
-          }
-
-            span{
-             background-color: $first-color;
-             width: 5rem;
-              height: 3px;
-              margin: 1rem auto;
-          }
-
-          p{
-            color: $grey;
-          }
-
-        }
-        
-          .redes-us{
-            display: flex;
-            justify-content: left;
-  
-            .fa-instagram, .fa-linkedin {
-              padding: 0.5rem;
-              font-size: 2.2em;
-              color: $bg-color;
-              transition: transform 1s;
-         
-              &:hover {
-               transform: scale(1.2);
-             }
-          }
-        }
-
 
       }
-      }    
 
-    
+      .item-descripcion {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+          padding: 0 2rem;
+        }
+
+        span {
+          background-color: $first-color;
+          width: 5rem;
+          height: 3px;
+          margin: 1rem auto;
+        }
+
+        p {
+          color: $grey;
+        }
+
+      }
+
+      .redes-us {
+        display: flex;
+        justify-content: left;
+
+        .fa-instagram,
+        .fa-linkedin {
+          padding: 0.5rem;
+          font-size: 2.2em;
+          color: $bg-color;
+          transition: transform 1s;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+
+
+    }
   }
 
 
+}
 
-.mision-vision{
-  width: 90%; 
+
+
+.mision-vision {
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-    padding: 2rem 5rem;
-    background-color: $font-gral;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 6px $grey;
-   
- div{   
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
+  padding: 2rem 5rem;
+  background-color: $font-gral;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 6px $grey;
 
-.mv-item{
-
+  div {
     display: flex;
     flex-direction: column;
-    margin: 0.5rem;
-    
-       
-    h3{
+    padding: 1rem;
+
+    .mv-item {
+
+      display: flex;
+      flex-direction: column;
+      margin: 0.5rem;
+
+
+      h3 {
         color: $bg-color;
         font-weight: bold;
         font-size: 2rem;
-      
-       
-    }
 
-    span{
+
+      }
+
+      span {
         background-color: $first-color;
         width: 5rem;
         height: 3px;
         margin-top: 0.5rem;
       }
 
-    p{
+      p {
         color: $grey;
         text-align: left;
         padding-top: 1rem;
-   
+
+      }
     }
-}
- }
-img{
-  width: 20rem;
-  height: 30rem;
-  margin: auto;
+  }
+
+  img {
+    width: 20rem;
+    height: 30rem;
+    margin: auto;
     border-radius: 0.5rem;
     filter: grayscale(100%);
-   
+
     transition: all 1s;
-   
-    &:hover{
-        filter: none;
-        
+
+    &:hover {
+      filter: none;
+
     }
+  }
 }
-}
-
-
-
-
-
 
 
 /*fin pagina nosotros*/

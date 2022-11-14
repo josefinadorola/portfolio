@@ -1,62 +1,62 @@
 @import 'colores';
 @import 'responsive';
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    color: $font-gral;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: $font-gral;
 
 }
 
-.body-index{
-    background-color: $bg-color;
-    background-image: url(../assets/img/skyline.png);
-    background-position: left;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+.body-index {
+  background-color: $bg-color;
+  background-image: url(../assets/img/skyline.png);
+  background-position: left;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 
-.body-paginas{
-    background-color: $bg-color;
+.body-paginas {
+  background-color: $bg-color;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 .active {
-    text-decoration: line-through !important;
-    color: $first-color !important;
-  }
-
-
-  main{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    padding-top: 3rem;
-
-
-    .section{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
-      padding: 1.5rem 0;
-      margin: 3rem 0;
-      
-    }
+  text-decoration: line-through !important;
+  color: $first-color !important;
 }
 
 
-    
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 3rem;
+
+
+  .section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 1.5rem 0;
+    margin: 3rem 0;
+
+  }
+}
+
+
+
 /*Estilos generales de las pÃ¡ginas*/
 
 .titulos-paginas {
@@ -85,34 +85,31 @@ a{
 
 /*Fin titulos*/
 
-    /*Estilos generales de los botones*/
+/*Estilos generales de los botones*/
 
-    .boton {
-      border: 1px solid $first-color;
-      padding: 1rem 1.5rem;
-      background-color: transparent;
-      color: $first-color;
-      text-decoration: none;
-      font-size: 1rem;
-      letter-spacing: 3px;
-      text-align: center;
-      cursor: pointer;
-      transition: 1s;
-  
-      &:hover{
-          background-color: $first-color;
-          color: $bg-color;
-          
-      }
-  
-      a {
-      text-decoration: none;
-      color: $first-color;
-              
-    }
+.boton {
+  border: 1px solid $first-color;
+  padding: 1rem 1.5rem;
+  background-color: transparent;
+  color: $first-color;
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+
+  &:hover {
+    background-color: $first-color;
+    color: $bg-color;
+
   }
-    /*Fin de estilos generales de los botones*/
- 
 
+  a {
+    text-decoration: none;
+    color: $first-color;
 
+  }
+}
 
+/*Fin de estilos generales de los botones*/
