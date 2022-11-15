@@ -1,5 +1,107 @@
 @import 'colores';
 
+
+@media screen and (max-device-width: 1000px) {
+/*Navbar*/
+.header{
+
+  .navbar{
+    gap: 20px;
+
+    
+.navbar-list{
+  gap: 40px;
+  position: absolute;
+  top: 65px;
+  right: 0;
+  width: 600px;
+  height: 600px;
+  background-color: $bg-color;
+  flex-direction: column;
+  z-index: 2;
+  text-align: center;
+  display: none;
+  
+
+  li{
+    border-bottom: 1px dashed $first-color;
+    padding: 10px;
+  }
+
+  a{
+    font-size: 40px;
+    
+  }
+
+}
+
+    .menu-label{
+        display: flex;
+        order: 2;
+        cursor: pointer;
+
+        img{
+          height: 35px;
+          width: 35px;
+        }
+    }
+
+    #menu-toggle:checked + .navbar-list{
+      display: flex;
+    }
+
+  }
+
+}
+
+/*Navbar*/
+
+/*nosotros*/
+
+  .mision-vision {
+    padding: 1rem 0;
+
+    div {
+      padding: 0;
+
+      .mv-item {
+        padding: 1rem;
+        text-align: center;
+
+        span {
+          margin: 0 auto;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+    }
+
+    img {
+      display: none;
+
+    }
+
+  }
+
+  /*Fin nosotros*/
+
+  /*Servicios*/
+
+  .container-servicios {
+
+    .col-servicios {
+      text-align: center;
+      width: 40%;
+    }
+
+  }
+
+   /*Fin Servicios*/
+
+}
+
 @media screen and (max-device-width: 600px) {
 
   main {
@@ -23,47 +125,33 @@
   }
 
   /*Navbar*/
-  .header {
-    background-color: $bg-color;
-    padding: 0;
-    position: fixed;
-    z-index: 2;
 
-    .container-header {
+  .header{
 
-      .navbar {
-
-        div {
-
-          a {
-            width: 80%;
-
-          }
-
-          div {
-            ul {
-
-              li {
-                font-size: 1.5rem;
-                margin-top: 0.5rem;
-                padding: 1rem;
-                border-bottom: 1px dashed $first-color;
-
-                a {
-                  padding-left: 1rem;
-
-                }
-
-              }
-
-
-            }
-          }
-        }
-
-
-      }
+    .navbar{
+      gap: 20px;
+  
+      
+  .navbar-list{
+    gap: 25px;
+    width: 380px;
+    height: 500px;
+     
+  
+    li{
+      padding: 10px;
     }
+  
+    a{
+      font-size: 20px;
+      
+    }
+  
+  }
+
+  
+    }
+  
   }
 
   /*Navbar*/
@@ -174,47 +262,6 @@
       text-align: center;
       margin: 0 auto;
 
-    }
-
-  }
-}
-
-
-
-@media screen and (max-device-width: 900px) {
-
-  .mision-vision {
-    padding: 1rem 0;
-
-    div {
-      padding: 0;
-
-      .mv-item {
-        padding: 1rem;
-        text-align: center;
-
-        span {
-          margin: 0 auto;
-        }
-
-        p {
-          text-align: center;
-        }
-      }
-    }
-
-    img {
-      display: none;
-
-    }
-
-  }
-
-  .container-servicios {
-
-    .col-servicios {
-      text-align: center;
-      width: 40%;
     }
 
   }

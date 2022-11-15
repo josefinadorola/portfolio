@@ -3,38 +3,58 @@
 
 /*Estilos del header*/
 
-.header {
+.header{
+  width: 100%;
   display: flex;
-  justify-content: center;
-  padding: 1rem 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  border-bottom: 1px solid $grey;
 
-
-  .container-header {
-    width: 100%;
-    max-width: 1400px;
-    
-    .logoNavBar {
-      width: 10%;
-      padding-top: 0.5rem;
-    }
-
-    .navbar-collapse {
-      flex-grow: 0 !important;
-
-
-      .navbar-nav li {
-
-        a {
-          color: $font-gral;
-
-          &:hover {
-            text-decoration: line-through !important;
-            color: $first-color !important;
-          }
-        }
-      }
-    }
+  
+  .logo{
+    height: 50px;
   }
+
+
+  .navbar{
+    display: flex;
+     justify-content: center;
+     align-content: center;
+     gap: 150px;
+  
+
+    .navbar-list{
+      display: flex;
+     justify-content: center;
+     margin-bottom: 0;
+      gap: 30px;
+     
+      a{
+        color: $font-gral;
+        text-decoration: none;
+        
+      }
+
+    }
+
+    .wsp-icon{
+       height: 30px;
+       cursor: pointer;
+
+    }
+
+    #menu-toggle{
+      display: none;
+    }
+
+    .menu-label{
+        display: none;
+    }
+
+  }
+
 }
 
 /*Fin del header*/

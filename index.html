@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=none" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" style type="text/css" href="./css/style.css" />
   <link rel="icon" href="./assets/img/logo.ico">
   <!--Descripción-->
@@ -30,37 +30,33 @@
 
   <!--Cabecera con logo y menu de navegacion-->
   <header class="header">
-    <div class="container-header">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a href="./index.html"><img src="./assets/img/logo.png" alt="logo" class="logoNavBar"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse navbarJey" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <a href="./index.html">
+      <img src="./assets/img/logo.png" alt="logo" class="logo">
+    </a>
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <img src="./assets/img/toggle-menu.png" alt="" />
+        </label>
+        <input id="menu-toggle" type="checkbox" />
+            <ul class="navbar-list">
+              <li>
+                <a class="active" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              <li>
+                <a href="./pages/nosotros.html">Nosotros</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/portfolio.html">Portfolio</a>
+              <li>
+                <a href="./pages/portfolio.html">Portfolio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/blog.html">Blog</a>
+              <li>
+                <a href="./pages/blog.html">Blog</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              <li>
+                <a href="./pages/contacto.html">Contacto</a>
               </li>
             </ul>
-          </div>
-        </div>
+            <img src="./assets/img/wsp.png" alt="whatsapp" class="wsp-icon">
       </nav>
-    </div>
   </header>
   <!--Fin de la cabecera-->
 
