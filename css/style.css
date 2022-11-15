@@ -147,14 +147,6 @@
     gap: 1rem;
     margin-bottom: 2rem;
   }
-  .nosotros .container-nosotros .item-nosotros {
-    width: 20rem;
-    margin: 0;
-    box-shadow: none;
-  }
-  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
-    width: 15rem;
-  }
   .container-servicios {
     flex-direction: column;
     gap: 1rem;
@@ -438,14 +430,6 @@
     gap: 1rem;
     margin-bottom: 2rem;
   }
-  .nosotros .container-nosotros .item-nosotros {
-    width: 20rem;
-    margin: 0;
-    box-shadow: none;
-  }
-  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
-    width: 15rem;
-  }
   .container-servicios {
     flex-direction: column;
     gap: 1rem;
@@ -629,14 +613,6 @@
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
-  }
-  .nosotros .container-nosotros .item-nosotros {
-    width: 20rem;
-    margin: 0;
-    box-shadow: none;
-  }
-  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
-    width: 15rem;
   }
   .container-servicios {
     flex-direction: column;
@@ -1004,14 +980,6 @@
     gap: 1rem;
     margin-bottom: 2rem;
   }
-  .nosotros .container-nosotros .item-nosotros {
-    width: 20rem;
-    margin: 0;
-    box-shadow: none;
-  }
-  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
-    width: 15rem;
-  }
   .container-servicios {
     flex-direction: column;
     gap: 1rem;
@@ -1183,14 +1151,6 @@
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
-  }
-  .nosotros .container-nosotros .item-nosotros {
-    width: 20rem;
-    margin: 0;
-    box-shadow: none;
-  }
-  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
-    width: 15rem;
   }
   .container-servicios {
     flex-direction: column;
@@ -1388,14 +1348,6 @@
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
-  }
-  .nosotros .container-nosotros .item-nosotros {
-    width: 20rem;
-    margin: 0;
-    box-shadow: none;
-  }
-  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
-    width: 15rem;
   }
   .container-servicios {
     flex-direction: column;
@@ -1645,14 +1597,6 @@ main .section {
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
-  }
-  .nosotros .container-nosotros .item-nosotros {
-    width: 20rem;
-    margin: 0;
-    box-shadow: none;
-  }
-  .nosotros .container-nosotros .item-nosotros .img-nosotros img {
-    width: 15rem;
   }
   .container-servicios {
     flex-direction: column;
