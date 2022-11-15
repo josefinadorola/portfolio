@@ -2,19 +2,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
+  .header {
+    padding: 10px;
+    background-color: #181818;
+  }
   .header .navbar {
     gap: 20px;
   }
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 65px;
+    top: 60px;
     right: 0;
-    width: 600px;
+    width: 630px;
     height: 600px;
     background-color: #181818;
     flex-direction: column;
     z-index: 2;
+    padding-left: 0;
     text-align: center;
     display: none;
   }
@@ -31,8 +36,8 @@
     cursor: pointer;
   }
   .header .navbar .menu-label img {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
     display: flex;
@@ -85,7 +90,7 @@
   }
   .header .navbar .navbar-list {
     gap: 25px;
-    width: 380px;
+    width: 300px;
     height: 500px;
   }
   .header .navbar .navbar-list li {
@@ -168,7 +173,6 @@
   align-items: center;
   height: 70px;
   padding: 0 30px;
-  border-bottom: 1px solid #8a8787;
 }
 .header .logo {
   height: 50px;
@@ -289,19 +293,24 @@
 /*Fin CSS formulario*/
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
+  .header {
+    padding: 10px;
+    background-color: #181818;
+  }
   .header .navbar {
     gap: 20px;
   }
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 65px;
+    top: 60px;
     right: 0;
-    width: 600px;
+    width: 630px;
     height: 600px;
     background-color: #181818;
     flex-direction: column;
     z-index: 2;
+    padding-left: 0;
     text-align: center;
     display: none;
   }
@@ -318,8 +327,8 @@
     cursor: pointer;
   }
   .header .navbar .menu-label img {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
     display: flex;
@@ -372,7 +381,7 @@
   }
   .header .navbar .navbar-list {
     gap: 25px;
-    width: 380px;
+    width: 300px;
     height: 500px;
   }
   .header .navbar .navbar-list li {
@@ -477,19 +486,24 @@
 /*Fin index*/
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
+  .header {
+    padding: 10px;
+    background-color: #181818;
+  }
   .header .navbar {
     gap: 20px;
   }
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 65px;
+    top: 60px;
     right: 0;
-    width: 600px;
+    width: 630px;
     height: 600px;
     background-color: #181818;
     flex-direction: column;
     z-index: 2;
+    padding-left: 0;
     text-align: center;
     display: none;
   }
@@ -506,8 +520,8 @@
     cursor: pointer;
   }
   .header .navbar .menu-label img {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
     display: flex;
@@ -560,7 +574,7 @@
   }
   .header .navbar .navbar-list {
     gap: 25px;
-    width: 380px;
+    width: 300px;
     height: 500px;
   }
   .header .navbar .navbar-list li {
@@ -855,19 +869,24 @@
 /*Fin servicios*/
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
+  .header {
+    padding: 10px;
+    background-color: #181818;
+  }
   .header .navbar {
     gap: 20px;
   }
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 65px;
+    top: 60px;
     right: 0;
-    width: 600px;
+    width: 630px;
     height: 600px;
     background-color: #181818;
     flex-direction: column;
     z-index: 2;
+    padding-left: 0;
     text-align: center;
     display: none;
   }
@@ -884,8 +903,8 @@
     cursor: pointer;
   }
   .header .navbar .menu-label img {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
     display: flex;
@@ -938,7 +957,7 @@
   }
   .header .navbar .navbar-list {
     gap: 25px;
-    width: 380px;
+    width: 300px;
     height: 500px;
   }
   .header .navbar .navbar-list li {
@@ -1031,19 +1050,24 @@
 /*Fin pagina portfolio**/
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
+  .header {
+    padding: 10px;
+    background-color: #181818;
+  }
   .header .navbar {
     gap: 20px;
   }
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 65px;
+    top: 60px;
     right: 0;
-    width: 600px;
+    width: 630px;
     height: 600px;
     background-color: #181818;
     flex-direction: column;
     z-index: 2;
+    padding-left: 0;
     text-align: center;
     display: none;
   }
@@ -1060,8 +1084,8 @@
     cursor: pointer;
   }
   .header .navbar .menu-label img {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
     display: flex;
@@ -1114,7 +1138,7 @@
   }
   .header .navbar .navbar-list {
     gap: 25px;
-    width: 380px;
+    width: 300px;
     height: 500px;
   }
   .header .navbar .navbar-list li {
@@ -1232,19 +1256,24 @@
 
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
+  .header {
+    padding: 10px;
+    background-color: #181818;
+  }
   .header .navbar {
     gap: 20px;
   }
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 65px;
+    top: 60px;
     right: 0;
-    width: 600px;
+    width: 630px;
     height: 600px;
     background-color: #181818;
     flex-direction: column;
     z-index: 2;
+    padding-left: 0;
     text-align: center;
     display: none;
   }
@@ -1261,8 +1290,8 @@
     cursor: pointer;
   }
   .header .navbar .menu-label img {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
     display: flex;
@@ -1315,7 +1344,7 @@
   }
   .header .navbar .navbar-list {
     gap: 25px;
-    width: 380px;
+    width: 300px;
     height: 500px;
   }
   .header .navbar .navbar-list li {
@@ -1485,19 +1514,24 @@ main .section {
 /*Fin de estilos generales de los botones*/
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
+  .header {
+    padding: 10px;
+    background-color: #181818;
+  }
   .header .navbar {
     gap: 20px;
   }
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 65px;
+    top: 60px;
     right: 0;
-    width: 600px;
+    width: 630px;
     height: 600px;
     background-color: #181818;
     flex-direction: column;
     z-index: 2;
+    padding-left: 0;
     text-align: center;
     display: none;
   }
@@ -1514,8 +1548,8 @@ main .section {
     cursor: pointer;
   }
   .header .navbar .menu-label img {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
     display: flex;
@@ -1568,7 +1602,7 @@ main .section {
   }
   .header .navbar .navbar-list {
     gap: 25px;
-    width: 380px;
+    width: 300px;
     height: 500px;
   }
   .header .navbar .navbar-list li {
