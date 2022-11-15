@@ -75,7 +75,7 @@
   main .section {
     margin: 0;
     padding: 0;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .titulos-paginas {
     padding: 1rem 0 0.5rem;
@@ -102,11 +102,11 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 4rem 2.5rem;
+    padding: 3rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     font-weight: 500;
     padding: 0.5rem 0;
   }
@@ -118,7 +118,6 @@
   .section-bienvenida .container-bienvenida .boton {
     font-size: 1rem;
     padding: 1rem;
-    margin: 0 auto;
     letter-spacing: 2px;
   }
   /* Fin bienvenida*/
@@ -214,6 +213,7 @@
   position: fixed;
   bottom: 0;
   margin-top: 3rem;
+  margin-bottom: 1rem;
   /*Clase para las imagenes de redes sociales*/
 }
 .footer .redes {
@@ -366,7 +366,7 @@
   main .section {
     margin: 0;
     padding: 0;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .titulos-paginas {
     padding: 1rem 0 0.5rem;
@@ -393,11 +393,11 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 4rem 2.5rem;
+    padding: 3rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     font-weight: 500;
     padding: 0.5rem 0;
   }
@@ -409,7 +409,6 @@
   .section-bienvenida .container-bienvenida .boton {
     font-size: 1rem;
     padding: 1rem;
-    margin: 0 auto;
     letter-spacing: 2px;
   }
   /* Fin bienvenida*/
@@ -559,7 +558,7 @@
   main .section {
     margin: 0;
     padding: 0;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .titulos-paginas {
     padding: 1rem 0 0.5rem;
@@ -586,11 +585,11 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 4rem 2.5rem;
+    padding: 3rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     font-weight: 500;
     padding: 0.5rem 0;
   }
@@ -602,7 +601,6 @@
   .section-bienvenida .container-bienvenida .boton {
     font-size: 1rem;
     padding: 1rem;
-    margin: 0 auto;
     letter-spacing: 2px;
   }
   /* Fin bienvenida*/
@@ -672,6 +670,7 @@
 .nosotros .container-nosotros .item-nosotros {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 1rem;
   width: 25rem;
   height: 45rem;
@@ -681,21 +680,12 @@
   background-color: #f6f6f6;
   box-shadow: 0 0 6px #8a8787;
 }
-.nosotros .container-nosotros .item-nosotros .img-nosotros {
-  width: 12rem;
-  height: 20rem;
-  position: relative;
-  overflow: hidden;
-  margin: 1rem auto;
-  border-radius: 0.5rem;
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
-}
-.nosotros .container-nosotros .item-nosotros .img-nosotros .img1 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+.nosotros .container-nosotros .item-nosotros img {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 100%;
+  object-fit: cover;
+  margin: 0 auto;
 }
 .nosotros .container-nosotros .item-nosotros .item-descripcion {
   display: flex;
@@ -942,7 +932,7 @@
   main .section {
     margin: 0;
     padding: 0;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .titulos-paginas {
     padding: 1rem 0 0.5rem;
@@ -969,11 +959,11 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 4rem 2.5rem;
+    padding: 3rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     font-weight: 500;
     padding: 0.5rem 0;
   }
@@ -985,7 +975,6 @@
   .section-bienvenida .container-bienvenida .boton {
     font-size: 1rem;
     padding: 1rem;
-    margin: 0 auto;
     letter-spacing: 2px;
   }
   /* Fin bienvenida*/
@@ -1123,7 +1112,7 @@
   main .section {
     margin: 0;
     padding: 0;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .titulos-paginas {
     padding: 1rem 0 0.5rem;
@@ -1150,11 +1139,11 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 4rem 2.5rem;
+    padding: 3rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     font-weight: 500;
     padding: 0.5rem 0;
   }
@@ -1166,7 +1155,6 @@
   .section-bienvenida .container-bienvenida .boton {
     font-size: 1rem;
     padding: 1rem;
-    margin: 0 auto;
     letter-spacing: 2px;
   }
   /* Fin bienvenida*/
@@ -1329,7 +1317,7 @@
   main .section {
     margin: 0;
     padding: 0;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .titulos-paginas {
     padding: 1rem 0 0.5rem;
@@ -1356,11 +1344,11 @@
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 4rem 2.5rem;
+    padding: 3rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     font-weight: 500;
     padding: 0.5rem 0;
   }
@@ -1372,7 +1360,6 @@
   .section-bienvenida .container-bienvenida .boton {
     font-size: 1rem;
     padding: 1rem;
-    margin: 0 auto;
     letter-spacing: 2px;
   }
   /* Fin bienvenida*/
@@ -1587,7 +1574,7 @@ main .section {
   main .section {
     margin: 0;
     padding: 0;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .titulos-paginas {
     padding: 1rem 0 0.5rem;
@@ -1614,11 +1601,11 @@ main .section {
   /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
-    padding: 4rem 2.5rem;
+    padding: 3rem 2.5rem;
   }
   .section-bienvenida .container-bienvenida div h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     font-weight: 500;
     padding: 0.5rem 0;
   }
@@ -1630,7 +1617,6 @@ main .section {
   .section-bienvenida .container-bienvenida .boton {
     font-size: 1rem;
     padding: 1rem;
-    margin: 0 auto;
     letter-spacing: 2px;
   }
   /* Fin bienvenida*/

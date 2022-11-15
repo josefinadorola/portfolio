@@ -2,64 +2,65 @@
 
 
 @media screen and (max-device-width: 1000px) {
-/*Navbar*/
-.header{
-  padding: 10px;
-  background-color: $bg-color;
 
-  .navbar{
-    gap: 20px;
-
-    
-.navbar-list{
-  gap: 40px;
-  position: absolute;
-  top: 60px;
-  right: 0;
-  width: 630px;
-  height: 600px;
-  background-color: $bg-color;
-  flex-direction: column;
-  z-index: 2;
-  padding-left: 0;
-  text-align: center;
-  display: none;
-  
-
-  li{
-    border-bottom: 1px dashed $first-color;
+  /*Navbar*/
+  .header {
     padding: 10px;
-  }
+    background-color: $bg-color;
 
-  a{
-    font-size: 40px;
-    
-  }
+    .navbar {
+      gap: 20px;
 
-}
 
-    .menu-label{
+      .navbar-list {
+        gap: 40px;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 630px;
+        height: 600px;
+        background-color: $bg-color;
+        flex-direction: column;
+        z-index: 2;
+        padding-left: 0;
+        text-align: center;
+        display: none;
+
+
+        li {
+          border-bottom: 1px dashed $first-color;
+          padding: 10px;
+        }
+
+        a {
+          font-size: 40px;
+
+        }
+
+      }
+
+      .menu-label {
         display: flex;
         order: 2;
         cursor: pointer;
 
-        img{
+        img {
           height: 40px;
           width: 40px;
         }
-    }
+      }
 
-    #menu-toggle:checked + .navbar-list{
-      display: flex;
+      #menu-toggle:checked+.navbar-list {
+        display: flex;
+      }
+
     }
 
   }
 
-}
+  /*Navbar*/
 
-/*Navbar*/
-
-/*nosotros*/
+  /*nosotros*/
 
   .mision-vision {
     padding: 1rem 0;
@@ -101,7 +102,7 @@
 
   }
 
-   /*Fin Servicios*/
+  /*Fin Servicios*/
 
 }
 
@@ -112,7 +113,7 @@
     .section {
       margin: 0;
       padding: 0;
-      padding-top: 2rem;
+      padding-top: 1rem;
     }
 
   }
@@ -129,32 +130,32 @@
 
   /*Navbar*/
 
-  .header{
+  .header {
 
-    .navbar{
+    .navbar {
       gap: 20px;
-  
-      
-  .navbar-list{
-    gap: 25px;
-    width: 300px;
-    height: 500px;
-     
-  
-    li{
-      padding: 10px;
-    }
-  
-    a{
-      font-size: 20px;
-      
-    }
-  
-  }
 
-  
+
+      .navbar-list {
+        gap: 25px;
+        width: 300px;
+        height: 500px;
+
+
+        li {
+          padding: 10px;
+        }
+
+        a {
+          font-size: 20px;
+
+        }
+
+      }
+
+
     }
-  
+
   }
 
   /*Navbar*/
@@ -163,14 +164,14 @@
   .section-bienvenida {
 
     .container-bienvenida {
-      padding: 4rem 2.5rem;
+      padding: 3rem 2.5rem;
 
       div {
 
         h1 {
 
-          font-size: 3rem;
-          line-height: 4rem;
+          font-size: 2.5rem;
+          line-height: 3rem;
           font-weight: 500;
           padding: 0.5rem 0;
 
@@ -187,7 +188,6 @@
       .boton {
         font-size: 1rem;
         padding: 1rem;
-        margin: 0 auto;
         letter-spacing: 2px;
 
       }
@@ -206,11 +206,11 @@
     flex-direction: column;
     gap: 1.5rem;
     margin-bottom: 6rem;
-    
+
 
 
     .art-portfolio {
-         margin: 0 auto;
+      margin: 0 auto;
 
 
       img {

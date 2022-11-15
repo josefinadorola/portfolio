@@ -3,54 +3,54 @@
 
 /*Estilos del header*/
 
-.header{
+.header {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
   padding: 0 30px;
-  
 
-  
-  .logo{
+
+
+  .logo {
     height: 50px;
   }
 
 
-  .navbar{
+  .navbar {
     display: flex;
-     justify-content: center;
-     align-content: center;
-     gap: 150px;
-  
+    justify-content: center;
+    align-content: center;
+    gap: 150px;
 
-    .navbar-list{
+
+    .navbar-list {
       display: flex;
-     justify-content: center;
-     margin-bottom: 0;
+      justify-content: center;
+      margin-bottom: 0;
       gap: 30px;
-     
-      a{
+
+      a {
         color: $font-gral;
         text-decoration: none;
-        
+
       }
 
     }
 
-    .wsp-icon{
-       height: 30px;
-       cursor: pointer;
+    .wsp-icon {
+      height: 30px;
+      cursor: pointer;
 
     }
 
-    #menu-toggle{
+    #menu-toggle {
       display: none;
     }
 
-    .menu-label{
-        display: none;
+    .menu-label {
+      display: none;
     }
 
   }
