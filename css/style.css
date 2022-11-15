@@ -147,6 +147,15 @@
     gap: 1rem;
     margin-bottom: 2rem;
   }
+  .nosotros .container-nosotros .item-nosotros {
+    width: 21rem;
+    margin: 0 auto;
+    box-shadow: none;
+  }
+  .nosotros .container-nosotros .item-nosotros .img1 {
+    width: 15em;
+    height: 15rem;
+  }
   .container-servicios {
     flex-direction: column;
     gap: 1rem;
@@ -430,6 +439,15 @@
     gap: 1rem;
     margin-bottom: 2rem;
   }
+  .nosotros .container-nosotros .item-nosotros {
+    width: 21rem;
+    margin: 0 auto;
+    box-shadow: none;
+  }
+  .nosotros .container-nosotros .item-nosotros .img1 {
+    width: 15em;
+    height: 15rem;
+  }
   .container-servicios {
     flex-direction: column;
     gap: 1rem;
@@ -613,6 +631,15 @@
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
+  }
+  .nosotros .container-nosotros .item-nosotros {
+    width: 21rem;
+    margin: 0 auto;
+    box-shadow: none;
+  }
+  .nosotros .container-nosotros .item-nosotros .img1 {
+    width: 15em;
+    height: 15rem;
   }
   .container-servicios {
     flex-direction: column;
@@ -980,6 +1007,15 @@
     gap: 1rem;
     margin-bottom: 2rem;
   }
+  .nosotros .container-nosotros .item-nosotros {
+    width: 21rem;
+    margin: 0 auto;
+    box-shadow: none;
+  }
+  .nosotros .container-nosotros .item-nosotros .img1 {
+    width: 15em;
+    height: 15rem;
+  }
   .container-servicios {
     flex-direction: column;
     gap: 1rem;
@@ -1151,6 +1187,15 @@
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
+  }
+  .nosotros .container-nosotros .item-nosotros {
+    width: 21rem;
+    margin: 0 auto;
+    box-shadow: none;
+  }
+  .nosotros .container-nosotros .item-nosotros .img1 {
+    width: 15em;
+    height: 15rem;
   }
   .container-servicios {
     flex-direction: column;
@@ -1348,6 +1393,15 @@
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
+  }
+  .nosotros .container-nosotros .item-nosotros {
+    width: 21rem;
+    margin: 0 auto;
+    box-shadow: none;
+  }
+  .nosotros .container-nosotros .item-nosotros .img1 {
+    width: 15em;
+    height: 15rem;
   }
   .container-servicios {
     flex-direction: column;
@@ -1597,6 +1651,15 @@ main .section {
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
+  }
+  .nosotros .container-nosotros .item-nosotros {
+    width: 21rem;
+    margin: 0 auto;
+    box-shadow: none;
+  }
+  .nosotros .container-nosotros .item-nosotros .img1 {
+    width: 15em;
+    height: 15rem;
   }
   .container-servicios {
     flex-direction: column;
