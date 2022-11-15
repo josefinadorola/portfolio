@@ -4,7 +4,6 @@
   /*Navbar*/
   .header {
     padding: 10px;
-    background-color: #181818;
   }
   .header .navbar {
     gap: 20px;
@@ -18,7 +17,7 @@
     height: 600px;
     background-color: #181818;
     flex-direction: column;
-    z-index: 2;
+    z-index: 3;
     padding-left: 0;
     text-align: center;
     display: none;
@@ -173,6 +172,10 @@
   align-items: center;
   height: 70px;
   padding: 30px 60px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: #181818;
 }
 .header .logo {
   height: 40px;
@@ -292,7 +295,6 @@
   /*Navbar*/
   .header {
     padding: 10px;
-    background-color: #181818;
   }
   .header .navbar {
     gap: 20px;
@@ -306,7 +308,7 @@
     height: 600px;
     background-color: #181818;
     flex-direction: column;
-    z-index: 2;
+    z-index: 3;
     padding-left: 0;
     text-align: center;
     display: none;
@@ -485,7 +487,6 @@
   /*Navbar*/
   .header {
     padding: 10px;
-    background-color: #181818;
   }
   .header .navbar {
     gap: 20px;
@@ -499,7 +500,7 @@
     height: 600px;
     background-color: #181818;
     flex-direction: column;
-    z-index: 2;
+    z-index: 3;
     padding-left: 0;
     text-align: center;
     display: none;
@@ -860,7 +861,6 @@
   /*Navbar*/
   .header {
     padding: 10px;
-    background-color: #181818;
   }
   .header .navbar {
     gap: 20px;
@@ -874,7 +874,7 @@
     height: 600px;
     background-color: #181818;
     flex-direction: column;
-    z-index: 2;
+    z-index: 3;
     padding-left: 0;
     text-align: center;
     display: none;
@@ -1041,7 +1041,6 @@
   /*Navbar*/
   .header {
     padding: 10px;
-    background-color: #181818;
   }
   .header .navbar {
     gap: 20px;
@@ -1055,7 +1054,7 @@
     height: 600px;
     background-color: #181818;
     flex-direction: column;
-    z-index: 2;
+    z-index: 3;
     padding-left: 0;
     text-align: center;
     display: none;
@@ -1247,7 +1246,6 @@
   /*Navbar*/
   .header {
     padding: 10px;
-    background-color: #181818;
   }
   .header .navbar {
     gap: 20px;
@@ -1261,7 +1259,7 @@
     height: 600px;
     background-color: #181818;
     flex-direction: column;
-    z-index: 2;
+    z-index: 3;
     padding-left: 0;
     text-align: center;
     display: none;
@@ -1505,7 +1503,6 @@ main .section {
   /*Navbar*/
   .header {
     padding: 10px;
-    background-color: #181818;
   }
   .header .navbar {
     gap: 20px;
@@ -1519,7 +1516,7 @@ main .section {
     height: 600px;
     background-color: #181818;
     flex-direction: column;
-    z-index: 2;
+    z-index: 3;
     padding-left: 0;
     text-align: center;
     display: none;

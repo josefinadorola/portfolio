@@ -6,8 +6,7 @@
   /*Navbar*/
   .header {
     padding: 10px;
-    background-color: $bg-color;
-
+   
     .navbar {
       gap: 20px;
 
@@ -21,7 +20,7 @@
         height: 600px;
         background-color: $bg-color;
         flex-direction: column;
-        z-index: 2;
+        z-index: 3;
         padding-left: 0;
         text-align: center;
         display: none;

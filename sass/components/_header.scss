@@ -10,7 +10,10 @@
   align-items: center;
   height: 70px;
   padding: 30px 60px;
-
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: $bg-color;
 
 
   .logo {
