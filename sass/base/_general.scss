@@ -102,15 +102,20 @@ main {
 
   &:hover {
     background-color: $first-color;
-    color: $bg-color;
+    
+    a {
+      text-decoration: none;
+      color: $bg-color;
+  
+    }
 
   }
 
-  a {
-    text-decoration: none;
+  a{
     color: $first-color;
-
   }
+
+ 
 }
 
 /*Fin de estilos generales de los botones*/

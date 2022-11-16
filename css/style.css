@@ -1491,10 +1491,12 @@ main .section {
 }
 .boton:hover {
   background-color: #08fdd8;
+}
+.boton:hover a {
+  text-decoration: none;
   color: #181818;
 }
 .boton a {
-  text-decoration: none;
   color: #08fdd8;
 }
 
