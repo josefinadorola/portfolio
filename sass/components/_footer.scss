@@ -15,6 +15,21 @@
     display: flex;
     justify-content: center;
 
+   
+     /*Clase para las imagenes de redes sociales*/
+  .fa-linkedin,
+  .fa-github,
+  .fa-instagram {
+    padding: 10px;
+    font-size: 2.2em;
+    color: $first-color !important;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $first-color;
+    }
+  }
+
   }
 
   .copyright {
@@ -23,19 +38,7 @@
     font-size: 0.8em;
   }
 
-  /*Clase para las imagenes de redes sociales*/
-  .fa-linkedin,
-  .fa-github,
-  .fa-instagram {
-    padding: 10px;
-    font-size: 2.2em;
-    color: $first-color;
-
-    &:hover {
-      transform: scale(1.2);
-      color: $first-color;
-    }
-  }
+ 
 
 }
 
