@@ -38,6 +38,11 @@
         color: $font-gral;
         text-decoration: none;
 
+        &:hover{
+          text-decoration: line-through;
+          color: $first-color;
+        }
+
       }
 
     }
