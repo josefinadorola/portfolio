@@ -559,6 +559,10 @@
   }
 }
 /*comienzo pagina nosotros*/
+.section h2 {
+  font-size: 2rem;
+}
+
 .nosotros {
   background-color: #181818;
   width: 100%;
@@ -566,7 +570,7 @@
   margin: 0;
 }
 .nosotros .titulo-nosotros {
-  font-size: 2em;
+  font-size: 2rem;
   color: #181818;
   font-weight: bold;
 }

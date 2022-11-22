@@ -2,14 +2,22 @@
 @import '../base/responsive';
 
 /*comienzo pagina nosotros*/
+.section{
+  h2{
+    font-size: 2rem;
+  }
+}
+
 .nosotros {
   background-color: $bg-color;
   width: 100%;
   padding: 0;
   margin: 0;
 
+ 
+
   .titulo-nosotros {
-    font-size: 2em;
+    font-size: 2rem;
     color: $bg-color;
     font-weight: bold;
   }
