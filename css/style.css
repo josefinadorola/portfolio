@@ -12,8 +12,8 @@
     gap: 40px;
     position: absolute;
     top: 80px;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 300px;
     height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
@@ -278,8 +278,8 @@
     gap: 40px;
     position: absolute;
     top: 80px;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 300px;
     height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
@@ -438,8 +438,8 @@
     gap: 40px;
     position: absolute;
     top: 80px;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 300px;
     height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
@@ -785,8 +785,8 @@
     gap: 40px;
     position: absolute;
     top: 80px;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 300px;
     height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
@@ -933,8 +933,8 @@
     gap: 40px;
     position: absolute;
     top: 80px;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 300px;
     height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
@@ -1109,8 +1109,8 @@
     gap: 40px;
     position: absolute;
     top: 80px;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 300px;
     height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
@@ -1336,8 +1336,8 @@ main .section {
     gap: 40px;
     position: absolute;
     top: 80px;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 300px;
     height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;

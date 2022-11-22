@@ -15,8 +15,8 @@
         gap: 40px;
         position: absolute;
         top: 80px;
-        left: 0;
-        width: 100%;
+        right: 0;
+        width: 300px;
         height: calc(100vh - 80px);
         background-color: $bg-color;
         flex-direction: column;
@@ -95,7 +95,7 @@
 
   }
 
-  
+
 
   /*Fin nosotros*/
 
