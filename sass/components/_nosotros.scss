@@ -28,7 +28,7 @@
       flex-direction: column;
       justify-content: center;
       gap: 1rem;
-      width: 25rem;
+      max-width: 25rem;
       height: 45rem;
       padding: 2rem;
       border-radius: 0.5rem;
@@ -170,6 +170,7 @@
   text-align: center;
   gap: 1rem;
   justify-content: center;
+  padding: 1rem;
 
 
   .ico-servicios {

@@ -5,17 +5,18 @@
 
 .header {
   width: 100%;
+  background-color: $bg-color;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-  padding: 30px 60px;
+  height: 100px;
+  padding: 40px 80px;
   position: fixed;
   top: 0;
   z-index: 2;
-  background-color: $bg-color;
 
 
+ 
   .logo {
     height: 40px;
   }
@@ -25,19 +26,17 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    gap: 150px;
-
-
+  
     .navbar-list {
       display: flex;
       justify-content: center;
       margin-bottom: 0;
-      gap: 30px;
+      gap: 40px;
 
       a {
         color: $font-gral;
         text-decoration: none;
-
+        
         &:hover{
           text-decoration: line-through;
           color: $first-color;
@@ -59,5 +58,11 @@
   }
 
 }
+
+.header-index{
+  background-color: transparent;
+}
+
+
 
 /*Fin del header*/

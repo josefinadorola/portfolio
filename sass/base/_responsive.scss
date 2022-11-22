@@ -5,8 +5,8 @@
 
   /*Navbar*/
   .header {
-    padding: 10px;
-   
+    padding: 10px 20px;
+     
     .navbar {
       gap: 20px;
 
@@ -14,16 +14,20 @@
       .navbar-list {
         gap: 40px;
         position: absolute;
-        top: 60px;
-        right: 0;
-        width: 630px;
-        height: 600px;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 80px);
         background-color: $bg-color;
         flex-direction: column;
+        justify-content: start;
         z-index: 3;
         padding-left: 0;
         text-align: center;
-        display: none;
+        transform: translateX(200%);
+        transition: all 0.8s ease-out;
+
+      
 
 
         li {
@@ -31,12 +35,7 @@
           padding: 10px;
         }
 
-        a {
-          font-size: 40px;
-
-        }
-
-      }
+       }
 
       .menu-label {
         display: flex;
@@ -50,7 +49,9 @@
       }
 
       #menu-toggle:checked+.navbar-list {
-        display: flex;
+        transform: translateX(0%);
+        transition: all 0.8s ease-in;
+    
       }
 
     }
@@ -58,6 +59,12 @@
   }
 
   /*Navbar*/
+
+  /*Titulos páginas*/
+  .titulos-paginas {
+    margin-top: 2rem;
+  }
+
 
   /*nosotros*/
 
@@ -88,20 +95,9 @@
 
   }
 
+  
+
   /*Fin nosotros*/
-
-  /*Servicios*/
-
-  .container-servicios {
-
-    .col-servicios {
-      text-align: center;
-      width: 40%;
-    }
-
-  }
-
-  /*Fin Servicios*/
 
 }
 
@@ -126,38 +122,6 @@
 
     }
   }
-
-  /*Navbar*/
-
-  .header {
-
-    .navbar {
-      gap: 20px;
-
-
-      .navbar-list {
-        gap: 25px;
-        width: 300px;
-        height: 500px;
-
-
-        li {
-          padding: 10px;
-        }
-
-        a {
-          font-size: 20px;
-
-        }
-
-      }
-
-
-    }
-
-  }
-
-  /*Navbar*/
 
   /* bienvenida*/
   .section-bienvenida {
@@ -232,15 +196,11 @@
   .nosotros {
 
     .container-nosotros {
-      flex-direction: column;
-      gap: 1rem;
-      margin-bottom: 2rem;
-
+    
 
       .item-nosotros {
-        width: 21rem;
-        margin: 0 auto;
-        box-shadow: none;
+          width: 21rem;
+          box-shadow: none;
 
         .img1{
           width: 15em;
@@ -254,16 +214,5 @@
 
   }
 
-  .container-servicios {
-    flex-direction: column;
-    gap: 1rem;
-
-    .col-servicios {
-      text-align: center;
-      margin: 0 auto;
-
-    }
-
-  }
-
+  
 }

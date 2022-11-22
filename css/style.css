@@ -3,7 +3,7 @@
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
   .header {
-    padding: 10px;
+    padding: 10px 20px;
   }
   .header .navbar {
     gap: 20px;
@@ -11,23 +11,22 @@
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 60px;
-    right: 0;
-    width: 630px;
-    height: 600px;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
+    justify-content: start;
     z-index: 3;
     padding-left: 0;
     text-align: center;
-    display: none;
+    transform: translateX(200%);
+    transition: all 0.8s ease-out;
   }
   .header .navbar .navbar-list li {
     border-bottom: 1px dashed #08fdd8;
     padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 40px;
   }
   .header .navbar .menu-label {
     display: flex;
@@ -39,9 +38,14 @@
     width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
-    display: flex;
+    transform: translateX(0%);
+    transition: all 0.8s ease-in;
   }
   /*Navbar*/
+  /*Titulos páginas*/
+  .titulos-paginas {
+    margin-top: 2rem;
+  }
   /*nosotros*/
   .mision-vision {
     padding: 1rem 0;
@@ -63,12 +67,6 @@
     display: none;
   }
   /*Fin nosotros*/
-  /*Servicios*/
-  .container-servicios .col-servicios {
-    text-align: center;
-    width: 40%;
-  }
-  /*Fin Servicios*/
 }
 @media screen and (max-device-width: 600px) {
   main .section {
@@ -83,22 +81,6 @@
     font-size: 1.8rem;
     font-weight: bold;
   }
-  /*Navbar*/
-  .header .navbar {
-    gap: 20px;
-  }
-  .header .navbar .navbar-list {
-    gap: 25px;
-    width: 300px;
-    height: 500px;
-  }
-  .header .navbar .navbar-list li {
-    padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 20px;
-  }
-  /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
     padding: 3rem 2.5rem;
@@ -141,41 +123,27 @@
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
-  .nosotros .container-nosotros {
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
-  }
   .nosotros .container-nosotros .item-nosotros {
     width: 21rem;
-    margin: 0 auto;
     box-shadow: none;
   }
   .nosotros .container-nosotros .item-nosotros .img1 {
     width: 15em;
     height: 15rem;
   }
-  .container-servicios {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .container-servicios .col-servicios {
-    text-align: center;
-    margin: 0 auto;
-  }
 }
 /*Estilos del header*/
 .header {
   width: 100%;
+  background-color: #181818;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-  padding: 30px 60px;
+  height: 100px;
+  padding: 40px 80px;
   position: fixed;
   top: 0;
   z-index: 2;
-  background-color: #181818;
 }
 .header .logo {
   height: 40px;
@@ -184,13 +152,12 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  gap: 150px;
 }
 .header .navbar .navbar-list {
   display: flex;
   justify-content: center;
   margin-bottom: 0;
-  gap: 30px;
+  gap: 40px;
 }
 .header .navbar .navbar-list a {
   color: #f6f6f6;
@@ -205,6 +172,10 @@
 }
 .header .navbar .menu-label {
   display: none;
+}
+
+.header-index {
+  background-color: transparent;
 }
 
 /*Fin del header*/
@@ -298,7 +269,7 @@
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
   .header {
-    padding: 10px;
+    padding: 10px 20px;
   }
   .header .navbar {
     gap: 20px;
@@ -306,23 +277,22 @@
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 60px;
-    right: 0;
-    width: 630px;
-    height: 600px;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
+    justify-content: start;
     z-index: 3;
     padding-left: 0;
     text-align: center;
-    display: none;
+    transform: translateX(200%);
+    transition: all 0.8s ease-out;
   }
   .header .navbar .navbar-list li {
     border-bottom: 1px dashed #08fdd8;
     padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 40px;
   }
   .header .navbar .menu-label {
     display: flex;
@@ -334,9 +304,14 @@
     width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
-    display: flex;
+    transform: translateX(0%);
+    transition: all 0.8s ease-in;
   }
   /*Navbar*/
+  /*Titulos páginas*/
+  .titulos-paginas {
+    margin-top: 2rem;
+  }
   /*nosotros*/
   .mision-vision {
     padding: 1rem 0;
@@ -358,12 +333,6 @@
     display: none;
   }
   /*Fin nosotros*/
-  /*Servicios*/
-  .container-servicios .col-servicios {
-    text-align: center;
-    width: 40%;
-  }
-  /*Fin Servicios*/
 }
 @media screen and (max-device-width: 600px) {
   main .section {
@@ -378,22 +347,6 @@
     font-size: 1.8rem;
     font-weight: bold;
   }
-  /*Navbar*/
-  .header .navbar {
-    gap: 20px;
-  }
-  .header .navbar .navbar-list {
-    gap: 25px;
-    width: 300px;
-    height: 500px;
-  }
-  .header .navbar .navbar-list li {
-    padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 20px;
-  }
-  /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
     padding: 3rem 2.5rem;
@@ -436,27 +389,13 @@
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
-  .nosotros .container-nosotros {
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
-  }
   .nosotros .container-nosotros .item-nosotros {
     width: 21rem;
-    margin: 0 auto;
     box-shadow: none;
   }
   .nosotros .container-nosotros .item-nosotros .img1 {
     width: 15em;
     height: 15rem;
-  }
-  .container-servicios {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .container-servicios .col-servicios {
-    text-align: center;
-    margin: 0 auto;
   }
 }
 .section-bienvenida {
@@ -490,7 +429,7 @@
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
   .header {
-    padding: 10px;
+    padding: 10px 20px;
   }
   .header .navbar {
     gap: 20px;
@@ -498,23 +437,22 @@
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 60px;
-    right: 0;
-    width: 630px;
-    height: 600px;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
+    justify-content: start;
     z-index: 3;
     padding-left: 0;
     text-align: center;
-    display: none;
+    transform: translateX(200%);
+    transition: all 0.8s ease-out;
   }
   .header .navbar .navbar-list li {
     border-bottom: 1px dashed #08fdd8;
     padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 40px;
   }
   .header .navbar .menu-label {
     display: flex;
@@ -526,9 +464,14 @@
     width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
-    display: flex;
+    transform: translateX(0%);
+    transition: all 0.8s ease-in;
   }
   /*Navbar*/
+  /*Titulos páginas*/
+  .titulos-paginas {
+    margin-top: 2rem;
+  }
   /*nosotros*/
   .mision-vision {
     padding: 1rem 0;
@@ -550,12 +493,6 @@
     display: none;
   }
   /*Fin nosotros*/
-  /*Servicios*/
-  .container-servicios .col-servicios {
-    text-align: center;
-    width: 40%;
-  }
-  /*Fin Servicios*/
 }
 @media screen and (max-device-width: 600px) {
   main .section {
@@ -570,22 +507,6 @@
     font-size: 1.8rem;
     font-weight: bold;
   }
-  /*Navbar*/
-  .header .navbar {
-    gap: 20px;
-  }
-  .header .navbar .navbar-list {
-    gap: 25px;
-    width: 300px;
-    height: 500px;
-  }
-  .header .navbar .navbar-list li {
-    padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 20px;
-  }
-  /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
     padding: 3rem 2.5rem;
@@ -628,27 +549,13 @@
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
-  .nosotros .container-nosotros {
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
-  }
   .nosotros .container-nosotros .item-nosotros {
     width: 21rem;
-    margin: 0 auto;
     box-shadow: none;
   }
   .nosotros .container-nosotros .item-nosotros .img1 {
     width: 15em;
     height: 15rem;
-  }
-  .container-servicios {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .container-servicios .col-servicios {
-    text-align: center;
-    margin: 0 auto;
   }
 }
 /*comienzo pagina nosotros*/
@@ -676,7 +583,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
-  width: 25rem;
+  max-width: 25rem;
   height: 45rem;
   padding: 2rem;
   border-radius: 0.5rem;
@@ -782,6 +689,7 @@
   text-align: center;
   gap: 1rem;
   justify-content: center;
+  padding: 1rem;
 }
 .container-servicios .ico-servicios {
   display: flex;
@@ -864,7 +772,7 @@
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
   .header {
-    padding: 10px;
+    padding: 10px 20px;
   }
   .header .navbar {
     gap: 20px;
@@ -872,23 +780,22 @@
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 60px;
-    right: 0;
-    width: 630px;
-    height: 600px;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
+    justify-content: start;
     z-index: 3;
     padding-left: 0;
     text-align: center;
-    display: none;
+    transform: translateX(200%);
+    transition: all 0.8s ease-out;
   }
   .header .navbar .navbar-list li {
     border-bottom: 1px dashed #08fdd8;
     padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 40px;
   }
   .header .navbar .menu-label {
     display: flex;
@@ -900,9 +807,14 @@
     width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
-    display: flex;
+    transform: translateX(0%);
+    transition: all 0.8s ease-in;
   }
   /*Navbar*/
+  /*Titulos páginas*/
+  .titulos-paginas {
+    margin-top: 2rem;
+  }
   /*nosotros*/
   .mision-vision {
     padding: 1rem 0;
@@ -924,12 +836,6 @@
     display: none;
   }
   /*Fin nosotros*/
-  /*Servicios*/
-  .container-servicios .col-servicios {
-    text-align: center;
-    width: 40%;
-  }
-  /*Fin Servicios*/
 }
 @media screen and (max-device-width: 600px) {
   main .section {
@@ -944,22 +850,6 @@
     font-size: 1.8rem;
     font-weight: bold;
   }
-  /*Navbar*/
-  .header .navbar {
-    gap: 20px;
-  }
-  .header .navbar .navbar-list {
-    gap: 25px;
-    width: 300px;
-    height: 500px;
-  }
-  .header .navbar .navbar-list li {
-    padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 20px;
-  }
-  /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
     padding: 3rem 2.5rem;
@@ -1002,27 +892,13 @@
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
-  .nosotros .container-nosotros {
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
-  }
   .nosotros .container-nosotros .item-nosotros {
     width: 21rem;
-    margin: 0 auto;
     box-shadow: none;
   }
   .nosotros .container-nosotros .item-nosotros .img1 {
     width: 15em;
     height: 15rem;
-  }
-  .container-servicios {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .container-servicios .col-servicios {
-    text-align: center;
-    margin: 0 auto;
   }
 }
 /*Comienzo pagina portfolio*/
@@ -1044,7 +920,7 @@
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
   .header {
-    padding: 10px;
+    padding: 10px 20px;
   }
   .header .navbar {
     gap: 20px;
@@ -1052,23 +928,22 @@
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 60px;
-    right: 0;
-    width: 630px;
-    height: 600px;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
+    justify-content: start;
     z-index: 3;
     padding-left: 0;
     text-align: center;
-    display: none;
+    transform: translateX(200%);
+    transition: all 0.8s ease-out;
   }
   .header .navbar .navbar-list li {
     border-bottom: 1px dashed #08fdd8;
     padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 40px;
   }
   .header .navbar .menu-label {
     display: flex;
@@ -1080,9 +955,14 @@
     width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
-    display: flex;
+    transform: translateX(0%);
+    transition: all 0.8s ease-in;
   }
   /*Navbar*/
+  /*Titulos páginas*/
+  .titulos-paginas {
+    margin-top: 2rem;
+  }
   /*nosotros*/
   .mision-vision {
     padding: 1rem 0;
@@ -1104,12 +984,6 @@
     display: none;
   }
   /*Fin nosotros*/
-  /*Servicios*/
-  .container-servicios .col-servicios {
-    text-align: center;
-    width: 40%;
-  }
-  /*Fin Servicios*/
 }
 @media screen and (max-device-width: 600px) {
   main .section {
@@ -1124,22 +998,6 @@
     font-size: 1.8rem;
     font-weight: bold;
   }
-  /*Navbar*/
-  .header .navbar {
-    gap: 20px;
-  }
-  .header .navbar .navbar-list {
-    gap: 25px;
-    width: 300px;
-    height: 500px;
-  }
-  .header .navbar .navbar-list li {
-    padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 20px;
-  }
-  /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
     padding: 3rem 2.5rem;
@@ -1182,27 +1040,13 @@
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
-  .nosotros .container-nosotros {
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
-  }
   .nosotros .container-nosotros .item-nosotros {
     width: 21rem;
-    margin: 0 auto;
     box-shadow: none;
   }
   .nosotros .container-nosotros .item-nosotros .img1 {
     width: 15em;
     height: 15rem;
-  }
-  .container-servicios {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .container-servicios .col-servicios {
-    text-align: center;
-    margin: 0 auto;
   }
 }
 .container-blog {
@@ -1216,8 +1060,7 @@
 .container-blog .articulo-blog {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  width: 20rem;
+  max-width: 20rem;
   height: auto;
   padding-bottom: 1rem;
   border-radius: 0.5rem;
@@ -1235,7 +1078,7 @@
 }
 .container-blog .articulo-blog p {
   color: #181818;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 .container-blog .articulo-blog button {
   background-color: #08fdd8;
@@ -1249,7 +1092,7 @@
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
   .header {
-    padding: 10px;
+    padding: 10px 20px;
   }
   .header .navbar {
     gap: 20px;
@@ -1257,23 +1100,22 @@
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 60px;
-    right: 0;
-    width: 630px;
-    height: 600px;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
+    justify-content: start;
     z-index: 3;
     padding-left: 0;
     text-align: center;
-    display: none;
+    transform: translateX(200%);
+    transition: all 0.8s ease-out;
   }
   .header .navbar .navbar-list li {
     border-bottom: 1px dashed #08fdd8;
     padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 40px;
   }
   .header .navbar .menu-label {
     display: flex;
@@ -1285,9 +1127,14 @@
     width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
-    display: flex;
+    transform: translateX(0%);
+    transition: all 0.8s ease-in;
   }
   /*Navbar*/
+  /*Titulos páginas*/
+  .titulos-paginas {
+    margin-top: 2rem;
+  }
   /*nosotros*/
   .mision-vision {
     padding: 1rem 0;
@@ -1309,12 +1156,6 @@
     display: none;
   }
   /*Fin nosotros*/
-  /*Servicios*/
-  .container-servicios .col-servicios {
-    text-align: center;
-    width: 40%;
-  }
-  /*Fin Servicios*/
 }
 @media screen and (max-device-width: 600px) {
   main .section {
@@ -1329,22 +1170,6 @@
     font-size: 1.8rem;
     font-weight: bold;
   }
-  /*Navbar*/
-  .header .navbar {
-    gap: 20px;
-  }
-  .header .navbar .navbar-list {
-    gap: 25px;
-    width: 300px;
-    height: 500px;
-  }
-  .header .navbar .navbar-list li {
-    padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 20px;
-  }
-  /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
     padding: 3rem 2.5rem;
@@ -1387,27 +1212,13 @@
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
-  .nosotros .container-nosotros {
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
-  }
   .nosotros .container-nosotros .item-nosotros {
     width: 21rem;
-    margin: 0 auto;
     box-shadow: none;
   }
   .nosotros .container-nosotros .item-nosotros .img1 {
     width: 15em;
     height: 15rem;
-  }
-  .container-servicios {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .container-servicios .col-servicios {
-    text-align: center;
-    margin: 0 auto;
   }
 }
 * {
@@ -1465,7 +1276,7 @@ main .section {
   padding: 3rem 1rem 0;
   text-align: center;
 }
-.titulos-paginas .h2-secciones {
+.titulos-paginas .h1-secciones {
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -1508,7 +1319,7 @@ main .section {
 @media screen and (max-device-width: 1000px) {
   /*Navbar*/
   .header {
-    padding: 10px;
+    padding: 10px 20px;
   }
   .header .navbar {
     gap: 20px;
@@ -1516,23 +1327,22 @@ main .section {
   .header .navbar .navbar-list {
     gap: 40px;
     position: absolute;
-    top: 60px;
-    right: 0;
-    width: 630px;
-    height: 600px;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
     background-color: #181818;
     flex-direction: column;
+    justify-content: start;
     z-index: 3;
     padding-left: 0;
     text-align: center;
-    display: none;
+    transform: translateX(200%);
+    transition: all 0.8s ease-out;
   }
   .header .navbar .navbar-list li {
     border-bottom: 1px dashed #08fdd8;
     padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 40px;
   }
   .header .navbar .menu-label {
     display: flex;
@@ -1544,9 +1354,14 @@ main .section {
     width: 40px;
   }
   .header .navbar #menu-toggle:checked + .navbar-list {
-    display: flex;
+    transform: translateX(0%);
+    transition: all 0.8s ease-in;
   }
   /*Navbar*/
+  /*Titulos páginas*/
+  .titulos-paginas {
+    margin-top: 2rem;
+  }
   /*nosotros*/
   .mision-vision {
     padding: 1rem 0;
@@ -1568,12 +1383,6 @@ main .section {
     display: none;
   }
   /*Fin nosotros*/
-  /*Servicios*/
-  .container-servicios .col-servicios {
-    text-align: center;
-    width: 40%;
-  }
-  /*Fin Servicios*/
 }
 @media screen and (max-device-width: 600px) {
   main .section {
@@ -1588,22 +1397,6 @@ main .section {
     font-size: 1.8rem;
     font-weight: bold;
   }
-  /*Navbar*/
-  .header .navbar {
-    gap: 20px;
-  }
-  .header .navbar .navbar-list {
-    gap: 25px;
-    width: 300px;
-    height: 500px;
-  }
-  .header .navbar .navbar-list li {
-    padding: 10px;
-  }
-  .header .navbar .navbar-list a {
-    font-size: 20px;
-  }
-  /*Navbar*/
   /* bienvenida*/
   .section-bienvenida .container-bienvenida {
     padding: 3rem 2.5rem;
@@ -1646,27 +1439,13 @@ main .section {
   }
   /*Fin pagina portfolio**/
   /*Página nosotros*/
-  .nosotros .container-nosotros {
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
-  }
   .nosotros .container-nosotros .item-nosotros {
     width: 21rem;
-    margin: 0 auto;
     box-shadow: none;
   }
   .nosotros .container-nosotros .item-nosotros .img1 {
     width: 15em;
     height: 15rem;
-  }
-  .container-servicios {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .container-servicios .col-servicios {
-    text-align: center;
-    margin: 0 auto;
   }
 }
 

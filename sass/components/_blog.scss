@@ -13,8 +13,7 @@
   .articulo-blog{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    width: 20rem;
+    max-width: 20rem;
     height: auto;
     padding-bottom: 1rem;
     border-radius: 0.5rem;
@@ -33,7 +32,7 @@
 
     p{
       color: $bg-color;
-      padding: 0 1rem;
+      padding: 1rem;
     }
 
     button{
