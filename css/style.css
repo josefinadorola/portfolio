@@ -4,6 +4,7 @@
   /*Navbar*/
   .header {
     padding: 10px 20px;
+    z-index: 4;
   }
   .header .navbar {
     gap: 20px;
@@ -270,6 +271,7 @@
   /*Navbar*/
   .header {
     padding: 10px 20px;
+    z-index: 4;
   }
   .header .navbar {
     gap: 20px;
@@ -430,6 +432,7 @@
   /*Navbar*/
   .header {
     padding: 10px 20px;
+    z-index: 4;
   }
   .header .navbar {
     gap: 20px;
@@ -593,7 +596,6 @@
   border-radius: 0.5rem;
   text-align: center;
   background-color: #f6f6f6;
-  box-shadow: 0 0 6px #8a8787;
 }
 .nosotros .container-nosotros .item-nosotros img {
   width: 18rem;
@@ -608,6 +610,7 @@
 }
 .nosotros .container-nosotros .item-nosotros .item-descripcion h3 {
   padding: 0 2rem;
+  color: #181818;
 }
 .nosotros .container-nosotros .item-nosotros .item-descripcion span {
   background-color: #08fdd8;
@@ -616,18 +619,19 @@
   margin: 1rem auto;
 }
 .nosotros .container-nosotros .item-nosotros .item-descripcion p {
-  color: #8a8787;
+  color: #181818;
 }
 .nosotros .container-nosotros .item-nosotros .redes-us {
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  padding: 0.5rem;
 }
 .nosotros .container-nosotros .item-nosotros .redes-us .fa-instagram,
 .nosotros .container-nosotros .item-nosotros .redes-us .fa-linkedin {
   padding: 0.5rem;
-  font-size: 2.2em;
-  color: #181818;
+  font-size: 2rem;
   transition: transform 1s;
+  color: #181818;
 }
 .nosotros .container-nosotros .item-nosotros .redes-us .fa-instagram:hover,
 .nosotros .container-nosotros .item-nosotros .redes-us .fa-linkedin:hover {
@@ -777,6 +781,7 @@
   /*Navbar*/
   .header {
     padding: 10px 20px;
+    z-index: 4;
   }
   .header .navbar {
     gap: 20px;
@@ -925,6 +930,7 @@
   /*Navbar*/
   .header {
     padding: 10px 20px;
+    z-index: 4;
   }
   .header .navbar {
     gap: 20px;
@@ -1101,6 +1107,7 @@
   /*Navbar*/
   .header {
     padding: 10px 20px;
+    z-index: 4;
   }
   .header .navbar {
     gap: 20px;
@@ -1328,6 +1335,7 @@ main .section {
   /*Navbar*/
   .header {
     padding: 10px 20px;
+    z-index: 4;
   }
   .header .navbar {
     gap: 20px;
